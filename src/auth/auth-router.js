@@ -18,10 +18,6 @@ const serializeUser = user => ({
   p_word: user.p_word
 })
 
-const serializeNames = data => ({
-    name:xss(data.name)
-})
-
 authRouter
   .route('/')
   .post(jsonParser,function(req,res){
@@ -38,20 +34,6 @@ authRouter
         res.json({"status": 'success', "id": user.id})
       }
       res.status(400).end()
-    })
-})
-
-authRouter
-.route('/names')
-.get((req,res) => {
-    AuthService.getNames(
-        req.app.get('db'),
-        req.session.user.id
-    )
-    .then(names => {
-        // console.log(names[1])
-        res.json(names.map(serializeNames))
-        console.log(names[1])
     })
 })
 

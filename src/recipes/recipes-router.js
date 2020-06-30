@@ -28,6 +28,13 @@ const serializeRecipe = recipe => ({
     tags: xss(recipe.tags)
 })
 
+const serializeNames = data => ({
+    name:xss(data.name)
+})
+
+recipesRouter.use(function(req,res,next){ if(req.session.user) { next() } else { res.status(403).end() } })
+
+
 recipesRouter
 .route('/')
 .get((req,res) => {
@@ -68,16 +75,28 @@ recipesRouter
 })
 
 recipesRouter
-.route('/:recipe_id')
+.route('/random/:recipe_id')
 .get((req, res) => {
     RecipesService.getRecipe(
         req.app.get('db'),
         req.params.recipe_id
     )
     .then(recipe => {
-        console.log(recipe)
         res.json(serializeRecipe(recipe))
     })
 })
+
+recipesRouter
+.route('/names')
+.get((req,res) => {
+    RecipesService.getNames(
+        req.app.get('db'),
+        req.session.user.id
+    )
+    .then(names => {
+        res.json(names.map(serializeNames))
+    })
+})
+
 
 module.exports = recipesRouter

@@ -33,11 +33,13 @@ app.use('/api/login', authRouter)
 app.use('/api/auth', authRouter)
 app.use('./api/logout', logoutRouter)
 app.use('/api/recipes', recipesRouter)
-// app.use('./api/logout', logoutRouter)
 
 app.get('/', (req, res) => {
     res.send('Hello, world!')
 })
+
+app.use(session({ secret: 'keyboard cat', resave: false, saveUninitialized: true, cookie: { sameSite: 'None', secure: false } }))
+
 
 app.use(function errorHandler(error, req, res, next) {
     let response

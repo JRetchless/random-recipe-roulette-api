@@ -13,6 +13,9 @@ const RecipesService = {
         .then(rows => {
             return rows[0]
         })
+    },
+    getNames(knex) {
+        return knex.select('name').from('random_recipes')
     }
 }
 

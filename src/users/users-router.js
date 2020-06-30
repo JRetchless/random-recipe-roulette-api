@@ -74,7 +74,6 @@ usersRouter
     const newUser = { firstname, lastname, email, p_word }
     for (const [key, value] of Object.entries(newUser)) {
       if (value == null) {
-          console.log(newUser)
         return res.status(400).json({
           error: { message: `Missing '${key}' in request body` }
         })
