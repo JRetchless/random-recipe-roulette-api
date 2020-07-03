@@ -241,7 +241,6 @@ untried'),('Greek Salad','Food Network (two different recipes)',0,
 ,2 clove garlic, minced
 ,2 teaspoon kosher salt, plus more to taste
 ,1 cup extra-virgin olive oil, preferably Greek
-,<hr>
 ,1 head romaine lettuce, trimmed of tough stems and torn into bite-sized pieces
 ,1 cup kalamata olives, about 6oz/cup
 ,1/2 pound Feta cheese, crumbled
@@ -326,12 +325,10 @@ Toss the salad greens, mozzarella, and remaining basil in a large bowl. Toss wit
 ,1/4 bunch fresh basil, torn
 ,2 tbsp parmesan, grated
 ,Kosher salt and freshly ground pepper
-,<hr>
 ,2 tablespoon extra-virgin olive oil
 ,1 cup breadcrumbs
 ,2 tablespoon chopped fresh parsley
 ,1/4 cup parmesan, grated
-,<hr>
 ,8 cup Italian-blend salad greens
 ,3/4 bunch fresh basil, chiffonade
 ,8 ounce bocconcini (mozzarella), quartered','salad
@@ -356,7 +353,6 @@ Alternate dressing (for 2 servings):
 ,1/2 teaspoon cumin
 ,2 tablespoon extra-virgin olive oil
 ,Kosher salt and freshly ground black pepper
-,<hr>
 ,1/2 cucumber, cubed
 ,1 avocado, cubed
 ,1 red bell pepper, cubed
@@ -447,7 +443,6 @@ breakfast'),('Super Protein Salad','Yuri Elkaim',0,
 ,1/4 cup chickpeas, drained and rinsed
 ,1 tbsp pistachios
 ,2 tbsp dried cranberries
-,<hr>
 ,salt and pepper, to taste
 ,2 tbsp olive oil
 ,1 tbsp red wine vinegar
@@ -540,7 +535,6 @@ Use whatever vinaigrette you want.',
 ,1 hard boiled eggs, peeled and carefully sliced
 ,2 tbsp pecans, chopped
 ,2 tbsp dried cranberries
-,<hr>
 ,1 1/2 tbsp olive oil
 ,2 tsp vinegar
 ,1 tsp dijon mustard
@@ -720,7 +714,6 @@ To serve, place 1/4 cup of brown rice in the bottom of each bowl. Ladle the chil
 ,1 cup vegetable stock, or water
 ,1 lime, juiced
 ,1/4 cup cilantro, chopped
-,<hr>
 ,Cooked brown rice, accompaniment
 ,Sour cream or strained plain yogurt, garnish
 ,Diced avocado or guacamole, garnish
@@ -834,7 +827,6 @@ Toss the hot rice with the spinach, pine nuts, citrus dressing, then top with th
 ,3 cup spinach leaves, stemmed and well rinsed
 ,1 cup toasted pine nuts
 ,1/2 cup crumbled feta cheese
-,<hr>
 ,1 orange, zested and juiced
 ,1 tablespoon fresh lemon juice
 ,1 tablespoon shallot, minced
@@ -926,7 +918,7 @@ Bring milk to a simmer in a saucepan over medium heat. Whisk cocoa/sugar mix int
 ,1/2 cup unsweetened cocoa powder
 ,1 tsp vanilla extract
 ,1/4 tsp salt
-,<hr>,4 cup milk
+,4 cup milk
 ,4 oz chocolate, chopped fine','drink
 chocolate'),('Exercise Rejuvenator','Yuri Elkaim',0,
     0, 0,2,
@@ -987,7 +979,6 @@ Toss dressing with lettuce and croutons.',
 ,2 tbsp Parmesan, grated
 ,1/2 lemon, zested
 ,salt and pepper
-,<hr>
 ,1/4 cup sliced almonds
 ,1/4 cup Parmesan, grated
 ,3 anchovies
@@ -1055,7 +1046,6 @@ Season to taste with salt and pepper if needed. Serve with tortillas, cheese, av
 ,1 can black beans, rinsed and drained
 ,1/2 cup water
 ,coarse salt and ground pepper
-,<hr>
 ,4 flour tortillas, warmed or lightly toasted
 ,1 cup Monterey Jack cheese, shredded (1 cup ≈ 3 oz)
 ,1 avocado, pitted, peeled and thinly sliced
@@ -1147,7 +1137,6 @@ To make dipping sauce, whisk together ingredients in a small bowl.',
 ,Bowl of water, plus additional water for steamer
 ,40 small wonton wrappers
 ,Non-stick vegetable spray, for the steamer
-,<hr>
 ,1 1/2 tablespoon soy sauce
 ,1 tablespoon seasoned rice vinegar
 ,1 teaspoon sesame oil
@@ -1260,7 +1249,6 @@ vegetarian'),('Roasted Salmon with Walnut-Pepper Relish','Food Network Magazine 
 ,2 tbsp parsley, chopped
 ,1/2 tsp salt
 ,black pepper
-,<hr>
 ,1 tbsp extra-virgin olive oil
 ,2 tbsp parsley, chopped
 ,2 tbsp chives, chopped
@@ -1392,7 +1380,7 @@ Add the bell pepper , scallions, basil, cilantro, and mint and toss to combine. 
 ,3 tbsp peanut butter, creamy
 ,3 tbsp dark brown sugar
 ,3 tbsp vegetable oil
-,<hr>,1 red bell pepper, small and thinly sliced
+,1 red bell pepper, small and thinly sliced
 ,1/2 cup green onions
 ,1/2 cup basil
 ,1/2 cup cilantro
@@ -1464,12 +1452,10 @@ In a small bowl, toss arugula with oil and season to taste with salt and pepper.
     'all-purpose flour, for dusting and rolling
 ,1 pound pizza dough, thawed if frozen
 ,1 teaspoon extra-virgin olive oil, for brushing
-,<hr>
 ,1/2 cup whole-milk ricotta cheese
 ,1 tablespoon extra-virgin olive oil
 ,1 garlic clove, minced
 ,salt and freshly ground pepper
-,<hr>
 ,6 oz mozzarella, shredded
 ,1 oz Parmesan, grated (or Pecorino Romano)
 ,2 oz baby arugula
@@ -1571,7 +1557,6 @@ To store, refrigerate in an airtight container, up to 1 day.',
 ,1/2 tsp coarse salt
 ,2 egg yolks
 ,1/2 tsp vanilla extract
-,<hr>
 ,2 eggs, lightly beaten
 ,3 tbsp all-purpose flour
 ,2/3 cup sugar
@@ -1830,13 +1815,13 @@ Storage: Frosted cake can be refrigerated for up to 3 days.',
 ,1 1/2 cup warm water
 ,5/8 cup safflower oil, 1/2 cup plus 2 tbsp
 ,2 tsp pure vanilla extract
-,<hr>,4 cup granulated sugar
+,4 cup granulated sugar
 ,1/4 cup light corn syrup
 ,1/4 cup water
 ,2 cup heavy cream
 ,Salt
 ,2 stick unsalted butter, cold, cut into tablespoons
-,<hr>,3/8 cup Dutch-process cocoa powder, 1/4 cup plus 2 tbsp
+,3/8 cup Dutch-process cocoa powder, 1/4 cup plus 2 tbsp
 ,3/8 cup warm water
 ,2 stick unsalted butter, room temperature
 ,1/2 cup confectioners'' sugar
@@ -1969,7 +1954,6 @@ main'),('Baked eggs and beans on toast','Food Network Magazine Nov 2011',0,
 ,Kosher salt and freshly ground pepper
 ,2 can navy beans, 1 undrained; 1 drained and rinsed
 ,8 large eggs
-,<hr>
 ,8 thick slices crusty bread
 ,2 cup grape tomatoes, halved
 ,1/4 cup fresh parsley, chopped
@@ -1988,14 +1972,12 @@ main'),('Warm shrimp and potato salad','Food Network Magazine Nov 2011',900,
 ,1 tbsp extra-virgin olive oil
 ,1/2 tsp salt
 ,Freshly ground pepper
-,<hr>
 ,1 lb medium shrimp, peeled, deveined and halved crosswise
 ,2 clove garlic, chopped
 ,1 tsp dried oregano
 ,1/2 tsp paprika
 ,1 tbsp extra-virgin olive oil
 ,1/4 tsp salt
-,<hr>
 ,4 cup romaine lettuce, torn into bite-sized pieces
 ,1 1/2 tbsp fresh lemon juice
 ,3 tbsp extra-virgin olive oil
@@ -2046,7 +2028,6 @@ untried'),('Spinach lasagna with mushroom ragu','Food Network Magazine Nov 2011'
 ,2 28oz cans whole San Marzano tomatoes, crushed by hand
 ,3 bay leaves
 ,1/4 cup fresh parsley, chopped
-,<hr>
 ,3 oz parmesan cheese, grated
 ,1 1/2 lb part-skim mozzarella cheese, shredded
 ,8 oz asiago cheese, shredded
@@ -2141,7 +2122,6 @@ Do not refrigerate Melomakarona as they will harden. Store in an airtight contai
 ,7 1/2 cup all-purpose flour
 ,3/4 cup walnuts, ground coarsely
 ,Ground cinnamon for sprinkling
-,<hr>
 ,1 cup honey
 ,1 cup sugar
 ,1 1/2 cup water
@@ -2193,7 +2173,6 @@ Yield: 30-36 pieces',
 ,1 teaspoon baking powder
 ,2 3/4 cup all-purpose flour
 ,1/4 cup brandy
-,<hr>
 ,1 2/3 pound fresh soft myzithra cheese, (or mascarpone or ricotta)
 ,1/2 teaspoon ground cinnamon
 ,2 tablespoon sugar
@@ -2201,7 +2180,6 @@ Yield: 30-36 pieces',
 ,1 teaspoon grated orange peel
 ,2 tablespoon all-purpose flour
 ,1 egg, beaten (for glaze)
-,<hr>
 ,ground cinnamon (for baked pastries)
 ,confectioner''s sugar or honey (for fried pastries)','greek
 untried
@@ -2411,10 +2389,9 @@ Storage: frosted cupcakes can be refrigerated for up to 1 day. Top with caramel 
 ,2 1/4 stick unsalted butter, room temperature
 ,2 1/4 cup granulated sugar
 ,7 egg whites, room temperature
-,<hr>
 ,1 1/2 cup granulated sugar
 ,3/4 cup water
-,<hr>
+ 
 ,1 pound cream cheese, room temperature
 ,2 stick unsalted butter, room temperature
 ,6 cup confectioners'' sugar
@@ -2750,7 +2727,6 @@ Storage: Decorated cake can be refrigerated for up to 3 days, but the ganache wi
 ,1 1/2 tsp pure vanilla extract
 ,1 cup low-fat buttermilk
 ,5 ounce semisweet chocolate, melted and cooled
-,<hr>
 ,2 cup heavy cream
 ,8 oz semisweet chocolate, chopped
 ,8 oz bittersweet chocolate, chopped
@@ -2782,7 +2758,6 @@ Combine marinade ingredients, except lemon slices, in a small saucepan and bring
 To serve: Grill or broil on both sides until just done, approximately 4 to 5 minutes per side. Be careful not to overcook. Salmon should still be translucent in the center. Serve with Soba Noodle Salad on the side.',
     '4 (5-ounce) salmon fillets
 ,1/2 teaspoon salt
-,<hr>
 ,1/4 cup soy sauce
 ,1/4 cup sake or dry white wine, sake is preferred
 ,1/4 cup mirin
@@ -2808,7 +2783,6 @@ Garnish with sesame seeds and peanuts.',
 ,2 tbsp rice wine vinegar
 ,3 tbsp soy sauce
 ,5 tbsp extra-virgin olive oil
-,<hr>
 ,1 carrot, thinly sliced or julienned
 ,2 stalk celery, thinly sliced or julienned
 ,5 green onions, bottom 4 inches, thinly sliced
@@ -2846,7 +2820,6 @@ Serve by cutting pitas in half, filling them with salmon, and topping them with 
 ,4 (6-ounce) fresh skinless salmon fillets (wild preferred)
 ,8 pita breads
 ,2 cup iceberg lettuce (optional), shredded
-,<hr>
 ,3 cup tomatoes, seeded and diced
 ,3/4 cup red onion, quartered and thinly sliced
 ,1 teaspoon garlic paste
@@ -2857,7 +2830,6 @@ Serve by cutting pitas in half, filling them with salmon, and topping them with 
 ,1/2 teaspoon freshly cracked black pepper
 ,1/2 teaspoon kosher salt
 ,1 1/2 tablespoon grapeseed oil
-,<hr>
 ,1 cup Greek yogurt
 ,1 1/2 cup English cucumber, peeled, seeded, finely diced
 ,1 1/2 tablespoon dill, chopped
@@ -2915,10 +2887,10 @@ To serve, divide the rice among 4 bowls. Top with a piece of fish and some aspar
 ,2 tablespoon water
 ,4 servings [Homemade Ponzu Sauce](http://www.xanthir.com/recipes/showrecipe.php?id=id157),1/4 cup sake
 ,2 tablespoon grated ginger
-,<hr>,1 pound center-cut salmon fillet, cut into 4 equal pieces
+,1 pound center-cut salmon fillet, cut into 4 equal pieces
 ,12 ounce asparagus, ends trimmed
 ,2 tablespoon vegetable oil
-,<hr>,4 teaspoon sesame seeds
+,4 teaspoon sesame seeds
 ,4 servings [Sushi Rice](http://www.xanthir.com/recipes/showrecipe.php?id=id158),2 teaspoon sesame oil
 ,3 green onions, chopped
 ,1 avocado, pitted, peeled, and cut into 1/2-inch cubes
@@ -2955,13 +2927,11 @@ untried'),('Shrimp and cabbage stir fry','Food Network Magazine Sept 2011',600,
 ,1 tbsp potato starch
 ,1 tsp soy sauce
 ,1 1/4 lb medium shrimp, peeled and deveined
-,<hr>
 ,2 tsp potato starch
 ,1 tbsp soy sauce
 ,2 tsp hoisin sauce
 ,1 1/2 tsp rice wine vinegar
 ,1/2 cup chicken broth, or water
-,<hr>
 ,2 tbsp vegetable oil
 ,4 green onions, cut into 1/2-inch pieces, white and green parts separated
 ,1 tbsp ginger, finely grated
@@ -3001,7 +2971,6 @@ Meanwhile, in a large bowl, combine lemon juice and remaining oil; season with s
 ,Coarse salt and ground pepper
 ,4 salmon fillets, skinless (6 ounces each)
 ,2 tablespoon Dijon mustard
-,<hr>
 ,1 tablespoon olive oil
 ,3 tablespoon fresh lemon juice
 ,5 ounce baby spinach
@@ -3038,7 +3007,6 @@ set. ',
 ,2 cup heavy whipping cream
 ,18 whole chocolate graham crackers, (about 5 x 2-in./13 x 5-cm rectangles), divided
 ,2 tbsp unsweetened cocoa powder, for dusting
-,<hr>
 ,1/2 cup heavy whipping cream
 ,2 tbsp hazelnut-flavored liqueur
 ,2 tbsp powdered sugar
@@ -3091,20 +3059,17 @@ Stir in remaining 1 tbsp oil, remaining pressed garlic cloves, wine, and pepper 
 
 Add pasta, reserved cooking water, cheeses, black pepper, and remaining 1tsp salt; mix well. Remove skillet from heat, add spinach and tomatoes, stir until spinach wilts.  Cover and let stand 10 minutes or until spinach is wilted and sauce is thickened, stirring once halfway through.  Top each serving with bread crumb mixture and additional parmesan cheese.',
     '8 oz dried orecchiette pasta
-,<hr>
 ,1/2 cup panko
 ,1 tbsp olive oil
 ,1 garlic cloves, pressed
 ,1/4 cup fresh parsley, chopped
-,<hr>
 ,3 cup cauliflower, cut into small florets
 ,1 medium red onion
 ,1/4 tsp salt
-,<hr>,1 tbsp olive oil
+,1 tbsp olive oil
 ,5 garlic cloves
 ,1 1/2 cup dry white wine
 ,1/4 tsp red pepper flakes
-,<hr>
 ,1 tsp salt
 ,1/3 cup mascarpone cheese
 ,2 oz Parmesan cheese, grated
@@ -3132,7 +3097,7 @@ dip'),('Black bean salad with chipotle honey dressing','Whole Foods',1800,
     '',1440,44,
     6,208,72,24,
     64,'Mix all ingredients, toss with dressing.',
-    '4 servings [chipotle honey vinaigrette](https://www.xanthir.com/recipes/showrecipe.php?id=id258),<hr>
+    '4 servings [chipotle honey vinaigrette](https://www.xanthir.com/recipes/showrecipe.php?id=id258) 
 ,2 avocados, diced
 ,2 can black beans, rinsed and drained
 ,1 cup grape tomatoes, halved
@@ -3410,7 +3375,7 @@ untried'),('Marinated feta, spinach & poached egg salad','The Vegetarian Table b
 ,2 tsp sugar
 ,4 garlic cloves, pressed
 ,1 tsp crushed red pepper flakes
-,<hr>,4 oz feta cheese, cut into 1/2 inch cubes
+,4 oz feta cheese, cut into 1/2 inch cubes
 ,8 slices french bread, cut 1/4 in thick, brushed with oil and toasted
 ,6 cup baby spinach
 ,1 cup grape tomatoes, halved
@@ -3509,7 +3474,7 @@ Make the salad: Toss the tomatoes, sugar and a pinch of salt in a bowl. In a sep
 ,1 stick unsalted butter, cut into pieces and softened
 ,1 tablespoon fresh lemon juice
 ,1/4 teaspoon nutmeg, freshly grated
-,<hr>
+ 
 ,1 pound grape tomatoes, halved
 ,1/4 teaspoon sugar
 ,1/2 teaspoon Kosher salt
@@ -3581,7 +3546,7 @@ untried'),('Smoky white bean and arugula panini','Vegetarian Table by Pampered C
 ,1 can great northern beans, drained and rinsed
 ,1/4 tsp salt
 ,1/4 tsp ground black pepper
-,<hr>,1/2 tbsp olive oil
+,1/2 tbsp olive oil
 ,8 slices Italian bread, cut 1/2-in. thick
 ,6 oz smoked mozzarella cheese, shredded
 ,2 medium tomatoes, sliced
@@ -3664,8 +3629,7 @@ To char the chiles (or any fresh chile): Put the chiles over a gas flame or unde
 ,1 garlic clove, minced
 ,1/3 cup white onion, chopped
 ,1 tablespoon olive oil
-,Salt and freshly ground black pepper
-,<hr>
+,Salt and freshly ground black pepper 
 ,1 1/2 cup Monterrey Jack cheese
 ,1 tablespoon dried oregano
 ,6 poblano chili peppers, charred, seeded, and deveined *see Cook''s Note
@@ -3785,7 +3749,6 @@ How to Crimp a Crust: Using a knuckle on one hand and the thumb and forefinger o
 ,1/4 teaspoon fine salt
 ,1/2 cup cold unsalted butter, cut into small pieces
 ,3 to 5 tablespoons ice water
-,<hr>
 ,3 tablespoon all-purpose flour
 ,3 eggs, lightly beaten 
 ,2 egg yolks, lightly beaten
@@ -3910,11 +3873,9 @@ Divide the chickpea filling among the naan bread. Drizzle with some of the yogur
 ,1/2 small onion, finely chopped
 ,1/2 teaspoon ground cumin
 ,salt
-,<hr>
 ,1/2 cup low-fat plain greek yogurt
 ,2 teaspoon fresh lime juice
 ,1/3 cup fresh cilantro, chopped
-,<hr>
 ,1 tablespoon vegetable oil
 ,2 cup chickpeas
 ,2 medium carrots, shredded
@@ -3971,7 +3932,6 @@ Whisk the granulated sugar, egg whites, cream of tartar, salt and 1/3 cup water 
 ,Pinch of salt
 ,1/2 cup stout beer (such as Guinness)
 ,1 teaspoon vanilla extract
-,<hr>
 ,2 ounce semisweet chocolate, chopped
 ,2 tablespoon unsalted butter
 ,1 tablespoon light corn syrup
@@ -4039,7 +3999,6 @@ Preheat the oven to 350 degrees F. Brush the loaf with the beaten egg, then spri
 ,1/2 teaspoon salt
 ,1/2 teaspoon vanilla extract
 ,4 tablespoon unsalted butter, at room temperature, plus more for brushing
-,<hr>
 ,1/2 cup blanched almonds
 ,1/3 cup granulated sugar
 ,4 tablespoon unsalted butter, at room temperature
@@ -4050,7 +4009,6 @@ Preheat the oven to 350 degrees F. Brush the loaf with the beaten egg, then spri
 ,1/2 teaspoon finely grated orange zest, (optional)
 ,1/4 teaspoon almond extract
 ,6 ounce semisweet chocolate, finely chopped
-,<hr>
 ,6 tablespoon confectioners'' sugar
 ,1/3 cup all-purpose flour
 ,3 tablespoon unsalted butter, at room temperature
@@ -4099,7 +4057,7 @@ For the kale salad: Remove the tough stems from the kale and discard. Finely sli
 ,1/4 teaspoon Dijon mustard
 ,Kosher salt and freshly cracked black pepper
 ,1 Squeeze of lemon juice
-,<hr>,1 pound kale, about 1 large bunch
+,1 pound kale, about 1 large bunch
 ,1/2 cup dried cranberries, roughly chopped
 ,1/2 cup Marcona almonds, roughly chopped','salad
 vegetarian
@@ -4196,12 +4154,10 @@ Yield: 1 large loaf, about 16 servings.',
 ,4 cup King Arthur Unbleached All-Purpose Flour
 ,1 1/2 teaspoon salt
 ,1 tablespoon instant yeast
-,<hr>
 ,3/4 cup cinnamon sugar, or Baker''s Cinnamon Filling
 ,3 tablespoon water, or a little butter
 ,2 medium bananas
 ,2/3 cup diced dried pineapple
-,<hr>
 ,1 large egg white, reserved from dough, mixed with 1 tablespoon cold water
 ,2 tablespoon coarse white sparkling sugar, or Demerara sugar','bread
 dessert
@@ -4235,7 +4191,6 @@ Coconut milk powder adds flavor and helps the macaroons hold their nice, smooth 
 ,1/4 teaspoon salt
 ,1/2 teaspoon coconut flavor, optional
 ,1/3 cup coconut milk powder, optional
-,<hr>
 ,1 1/2 cup semisweet chocolate chips
 ,2 1/2 tablespoon butter or margarine
 ,2 tablespoon light corn syrup or honey','cookies
@@ -4294,7 +4249,6 @@ Yield: 4 dozen cookies.',
 ,1 teaspoon salt
 ,3/4 cup almond flour
 ,2 1/4 cup King Arthur Unbleached All-Purpose Flour
-,<hr>
 ,1 1/2 cup confectioners'' sugar','cookies
 dessert'),('Kale caesar salad','http://www.foodnetwork.com/recipes/food-network-kitchens/kale-caesar-salad-recipe/index.html',0,
     0, 0,4,
@@ -4341,7 +4295,7 @@ To make glaze, in a small saucepan melt butter, remove from heat. Stir in sugar,
 ,1 tbsp vanilla
 ,2 1/4 cup all-purpose flour
 ,1 tsp nutmeg
-,<hr>,1/4 cup butter
+,1/4 cup butter
 ,1 cup powdered sugar
 ,1 tbsp hot water, more if needed
 ,1/4 tsp rum flavoring','cookies
@@ -4448,7 +4402,7 @@ Toss the noodles with the dressing and arrange the daikon, sprouts, onion, green
 ,1/4 cup rice vinegar
 ,1 tablespoon sugar
 ,1 teaspoon sesame oil
-,<hr>,7 ounce dried soba noodles
+,7 ounce dried soba noodles
 ,1/2 cup daikon or breakfast radishes, finely julienned
 ,1 cup daikon radish sprouts, loosely packed
 ,1 small onion, cut in half, thinly sliced, rinsed, and drained
@@ -4469,13 +4423,11 @@ Whisk the vinegar, mustard, 1/4 teaspoon salt, and pepper to taste in a large bo
 Peel and quarter the eggs. Add to the salad and gently toss.',
     '4 eggs
 ,2 medium russet potatoes, peeled and cut into 1-inch chunks
-,<hr>
 ,2 tablespoon red wine vinegar
 ,1 tablespoon whole-grain mustard
 ,Kosher salt
 ,Freshly ground pepper
 ,1/4 cup extra-virgin olive oil
-,<hr>
 ,2 cup giardiniera (Italian pickled vegetables), drained, rinsed and coarsely chopped
 ,2 ounce salami, deli-sliced, cut into strips
 ,1/4 cup green olives, pitted and chopped
@@ -4553,7 +4505,6 @@ vegetarian'),('Tuscan panzanella salad','Cooking for Two or More by Pampered Che
 ,1/4 cup red onion, thinly sliced
 ,1/2 cup chickpeas
 ,1/4 cup fresh basil, thinly sliced
-,<hr>
 ,1 tbsp lemon juice
 ,1 tbsp red wine vinegar
 ,1 garlic clove, pressed or minced
@@ -4799,7 +4750,6 @@ untried'),('Kale panzanella','http://www.pbs.org/food/fresh-tastes/kale-panzanel
 ,1/2 cucumber, chopped
 ,5 cup French bread (preferably day old), cubed
 ,2 tsp olive oil, divided
-,<hr>
 ,3 tbsp olive oil
 ,1 tbsp balsamic vinegar
 ,1/2 tsp garlic, minced
@@ -4821,14 +4771,12 @@ Serve salmon atop a small bed of orzo, dazzled with the warm tomato and olive sa
 ,2 tablespoon olive oil
 ,1/2 small onion, chopped
 ,1 tablespoon rosemary, chopped
-,<hr>
 ,1/2 small onion, chopped
 ,1 teaspoon garlic, minced
 ,1 pint grape tomatoes, halved
 ,8 oz seasoned kalamata olives
 ,2 tablespoon fresh basil, chopped
 ,2 tablespoon fresh parsley, chopped
-,<hr>
 ,4 salmon fillets
 ,2 tablespoon olive oil
 ,1/4 teaspoon salt
@@ -4867,7 +4815,6 @@ vegetarian'),('Tomato-Basil Soup with Ricotta Dumplings','http://new.pamperedche
 ,1 15oz can crushed tomatoes, undrained
 ,1 1/2 cup vegetable broth, or chicken broth
 ,1/4 cup fresh basil, snipped
-,<hr>
 ,1/4 cup part-skim ricotta cheese
 ,2 tbsp grated fresh Parmesan cheese
 ,1 egg white, lightly beaten
@@ -4892,7 +4839,6 @@ When baking is done, remove from oven. Place a mushroom on each plate, gills up.
 ,1/4 tsp Italian Seasoning
 ,1/4 tsp salt
 ,1 tbsp olive oil
-,<hr>
 ,2 large tomatoes
 ,4 large portobello mushroom caps
 ,4 oz log goat cheese
@@ -5040,12 +4986,10 @@ For toppers, quarter remaining artichoke hearts. Arrange them and all other vege
     '1 lb refrigerated pizza dough
 ,Olive oil
 ,1 garlic clove, pressed
-,<hr>
 ,1 14oz can artichoke hearts in water, drained, divided
 ,4 ounce cream cheese, softened
 ,4 ounce feta cheese, crumbled, divided
 ,1/2 teaspoon dried oregano
-,<hr>
 ,2 plum tomatoes, seeded and chopped
 ,1/3 cup black olives, pitted and sliced
 ,1/3 cup cucumber, sliced and quartered
@@ -5078,11 +5022,9 @@ In a large bowl, whisk together vinegar and oil; season with salt and pepper. Ad
 ,1 24oz can tomato sauce
 ,1/2 cup parmesan, finely grated
 ,1/2 cup mozzarella, shredded
-,<hr>
 ,1/2 loaf Italian bread (5 ounces)
 ,2 tablespoon butter, melted
 ,2 garlic cloves, minced
-,<hr>
 ,1 tablespoon sherry vinegar or red-wine vinegar
 ,1 tablespoon olive oil
 ,1 head Belgian endive, stem end trimmed, thinly sliced
@@ -5100,10 +5042,10 @@ pasta'),('Millet bread (Corn-free cornbread)','http://gingerlemongirl.blogspot.c
 ,2 teaspoon baking powder
 ,1/2 teaspoon salt
 ,3 tablespoon sugar
-,<hr>,3 tablespoon oil, not olive oil
+,3 tablespoon oil, not olive oil
 ,2 eggs
 ,1 cup buttermilk
-,<hr>,2 tbsp butter, for pan','sides'),('Chocolate-Pumpkin Cheesecake Bars','http://www.marthastewart.com/341749/chocolate-pumpkin-cheesecake-bars?czone=food%2Fholiday-cookies-center%2Fholiday-cookies-recipes&gallery=274297&slide=341749&center=276951',0,
+,2 tbsp butter, for pan','sides'),('Chocolate-Pumpkin Cheesecake Bars','http://www.marthastewart.com/341749/chocolate-pumpkin-cheesecake-bars?czone=food%2Fholiday-cookies-center%2Fholiday-cookies-recipes&gallery=274297&slide=341749&center=276951',0,
     0, 0,16,
     '',0,0,
     0,0,0,0,
@@ -5123,7 +5065,6 @@ Cool in pan. Cover; chill until firm, at least 2 hours (and up to 2 days). Using
     '4 1/2 oz graham crackers or chocolate wafer cookies
 ,2 tablespoon sugar
 ,4 tablespoon unsalted butter, melted
-,<hr>
 ,2 packages bar cream cheese (8 ounces each)
 ,1 cup sugar
 ,1 cup canned solid-pack pumpkin puree
@@ -5154,7 +5095,6 @@ Directions for the caramel:
 ,1/2 cup granulated sugar
 ,2 teaspoon vanilla extract, or vanilla bean paste
 ,2 cup all-purpose flour
-,<hr>
 ,1/2 cup butter
 ,1/2 cup Dark Brown Sugar
 ,2 tablespoon Cane Sugar
@@ -5183,7 +5123,6 @@ Briefly beat the filling with a mixer on medium-high speed until thick, 30 secon
 ,1 cup sugar
 ,1 large egg
 ,2 teaspoon vanilla extract
-,<hr>
 ,2/3 cup heavy cream
 ,8 ounce milk chocolate, finely chopped
 ,Sprinkles, for decorating (optional)','cookies
@@ -5237,7 +5176,7 @@ Pour the pasta into a greased 9 by 13-inch pan. Top with the remaining 1/3 cup P
 ,1/2 teaspoon salt
 ,1/2 teaspoon freshly ground black pepper
 ,1 tablespoon dried Italian herb mix, or herbs de Provence
-,<hr>,1 pound penne pasta
+,1 pound penne pasta
 ,3 cup marinara sauce, (store bought or homemade)
 ,1 cup fontina cheese, grated
 ,1/2 cup smoked mozzarella, grated
@@ -5245,7 +5184,7 @@ Pour the pasta into a greased 9 by 13-inch pan. Top with the remaining 1/3 cup P
 ,1/2 teaspoon freshly ground black pepper
 ,1 1/2 cup frozen peas, thawed
 ,1/4 cup Parmesan, grated
-,<hr>,1/3 cup Parmesan, for topping
+,1/3 cup Parmesan, for topping
 ,2 tablespoon butter, cut into small pieces','vegetarian
 pasta
 main
@@ -5585,11 +5524,9 @@ Read more at: http://www.foodnetwork.com/recipes/food-network-kitchens/broiled-h
 ,1 medium red onion, thinly sliced
 ,1 tablespoon extra-virgin olive oil
 ,Kosher salt and freshly ground pepper
-,<hr>
 ,4 6-ounce center-cut skinless halibut fillets (1 3/4 inches thick)
 ,2 tablespoon extra-virgin olive oil
 ,1/2 teaspoon smoked paprika
-,<hr>
 ,10 ounce frozen peas
 ,1/4 cup water
 ,1/3 cup ricotta cheese
@@ -5745,7 +5682,6 @@ untried'),('Baked eggs and grits','http://www.marthastewart.com/973795/baked-egg
 ,1 cup baby arugula
 ,2 tbsp cheddar, grated
 ,Salt and pepper
-,<hr>
 ,4 eggs
 ,2 tbsp cheddar, grated','breakfast'),('Open face egg and tomato sandwich','http://www.marthastewart.com/317626/open-faced-egg-and-tomato-sandwich',300,
     0, 300,2,
@@ -5803,7 +5739,6 @@ untried'),('Skillet shrimp and orzo','http://www.marthastewart.com/900196/skille
 ,Coarse salt and ground pepper
 ,3/4 pound orzo
 ,3 1/4 cup low-sodium chicken broth
-,<hr>
 ,1 teaspoon extra-virgin olive oil
 ,1 pound large shrimp, peeled and deveined
 ,1/4 tsp salt
@@ -5829,7 +5764,6 @@ Also see: http://www.marthastewart.com/336720/spicy-pumpkin-seeds',
 ,Coarse salt and ground pepper
 ,1 large head Boston lettuce, torn into small pieces
 ,4 radishes, trimmed, halved, and thinly sliced (about 1/2 cup)
-,<hr>
 ,1/4 cup raw green pumpkin seeds
 ,1/4 teaspoon chili powder
 ,4 dashes cayenne pepper
@@ -5960,7 +5894,6 @@ When filling is ready, pack into the poblano halves. Return to the oven for 5 mi
 ,Kosher salt and freshly ground black pepper
 ,4 medium red bell peppers or poblano peppers, see alternate cooking instructions
 ,Hot water, as needed
-,<hr>
 ,1 packed cup fresh basil leaves
 ,1/2 cup creme fraiche
 ,3 tablespoon extra-virgin olive oil
@@ -5983,7 +5916,6 @@ In a small bowl, whisk oil, vinegar, mustard, and a pinch each of salt and peppe
 ,1/2 cup grape tomatoes, halved or quartered
 ,2 ounce sliced provolone cheese, cut into thin strips
 ,1 ounce salami, cut into thin strips
-,<hr>
 ,2 teaspoon olive oil
 ,2 teaspoon red-wine vinegar
 ,1/2 teaspoon Dijon mustard
@@ -6006,7 +5938,6 @@ Just before serving, dice avocado and add it to your premade salad, along with e
 ,1 small endive
 ,1/4 cup grape tomatoes
 ,2 tablespoon pecans
-,<hr>
 ,Coarse salt and ground pepper
 ,2 tablespoon fresh lemon juice
 ,1 tablespoon olive oil
@@ -6161,7 +6092,6 @@ Yield: about 22 filled cookies.',
 ,1 cup quick-cooking oats
 ,2/3 cup flour
 ,extra-fine salt (optional), for dusting on top
-,<hr>
 ,1 1/2 cup confectioners'' sugar
 ,1/2 cup peanut butter, heaping
 ,5 tablespoon milk (or half & half)','dessert
@@ -6185,7 +6115,6 @@ Read more at: http://www.foodnetwork.com/recipes/articles/50-deviled-eggs.page-1
 ,2 green onions, sliced
 ,3 oz smoked salmon, chopped
 ,salt and pepper
-,<hr>
 ,bagel chips
 ,smoked salmon, for topping','appetizer'),('Mayonnaise','http://www.foodnetwork.com/recipes/alton-brown/mayonnaise-recipe.html',0,
     0, 600,1,
@@ -6226,7 +6155,6 @@ Continue whisking until all of the oil is incorporated. Leave at room temperatur
 ,1/2 tsp salt
 ,3 cup milk
 ,1 cup uncooked millet grits
-,<hr>
 ,1 tbsp olive oil
 ,8 oz white button mushrooms, sliced
 ,1 large shallot, finely chopped
@@ -6236,7 +6164,6 @@ Continue whisking until all of the oil is incorporated. Leave at room temperatur
 ,1 tbsp capers, drained
 ,1 tbsp balsamic vinegar
 ,1/2 tsp crushed red pepper flakes
-,<hr>
 ,2 oz mozzarella, grated or shredded
 ,3 tbsp fresh basil leaves, thinly sliced','vegetarian
 main
@@ -6255,7 +6182,6 @@ untried'),('Spicy orange tofu and vegetable stir-fry','Pampered Chef',1200,
 ,4 tsp Sriracha
 ,2 tbsp soy sauce
 ,1 1/2 tsp arrowroot starch
-,<hr>
 ,1 tbsp ginger, grated
 ,3 garlic cloves, pressed
 ,14 oz extra-firm tofu, drained and patted dry, cut into 3/4 inch cubes
@@ -6316,7 +6242,6 @@ Read more at: http://www.foodnetwork.com/recipes/sandra-lee/greek-layered-dip-wi
     '1 14oz package pita bread
 ,Olive oil cooking spray
 ,2 teaspoon Greek seasoning
-,<hr>
 ,1 pound ground lamb
 ,1 teaspoon garlic salt
 ,2 teaspoon Greek seasoning
@@ -6418,7 +6343,7 @@ untried'),('Shakshuka with chickpeas','Food Network Magazine March 2015',1200,
 ,1/3 cup water
 ,8 eggs
 ,2 tablespoon cilantro, chopped
-,<hr>,2 pieces pita bread
+,2 pieces pita bread
 ,1/2 cup plain nonfat Greek yogurt
 ,1/4 cup hummus','vegetarian
 israeli
@@ -6461,7 +6386,6 @@ untried'),('Sweet potato millet burgers','Food Network Magazine January 2015',18
 ,3/4 teaspoon Kosher salt
 ,1/2 cup millet
 ,1/2 cup cooked chickpeas, (rinsed, if canned), smashed with a fork
-,<hr>
 ,1/2 cup breadcrumbs
 ,1 4oz can roasted green chili peppers, chopped
 ,1 small shallot, very finely chopped
@@ -6469,7 +6393,6 @@ untried'),('Sweet potato millet burgers','Food Network Magazine January 2015',18
 ,1 teaspoon sweet paprika
 ,3/4 teaspoon onion powder
 ,3/4 tsp salt
-,<hr>
 ,1 large egg
 ,1/4 cup breadcrumbs
 ,1/4 cup millet
@@ -6634,7 +6557,6 @@ You can make the biscuits 1 day ahead and store in an airtight container; split 
 ,2 tbsp green onion, minced, white and pale green portions only
 ,2 tbsp fresh chives, minced
 ,2 tbsp fresh flat-leaf parsley, minced
-,<hr>
 ,8 oz cold-smoked salmon, thinly sliced
 ,3/4 cup creme fraiche
 ,2 tsp lemon zest, finely grated','seafood
@@ -6672,13 +6594,11 @@ vegetarian'),('Thai Vegetable Stir-fry','Pampered Chef',1200,
 
 https://www.pamperedchef.com/pws/pamallan/recipe/Main+Dishes/Budget+Friendly/Thai+Vegetable+Stir-Fry/888041',
     '3 cup uncooked brown rice
-,<hr>
 ,1 cup lite coconut milk, (shake before opening)
 ,1 1/2 tbsp Asian Seasoning Mix
 ,2 tbsp creamy peanut butter
 ,2 tbsp reduced-sodium soy sauce
 ,2 tbsp potato starch
-,<hr>
 ,3 medium carrots, peeled and cut into long julienne strips
 ,2 medium yellow squash, cut into long julienne strips
 ,2 medium zucchini, cut into long julienne strips
@@ -6766,7 +6686,6 @@ Keep refrigerated until time of serving.',
 ,2 egg yolks
 ,3⁄4 cup white wine
 ,canola oil or shortening, for frying
-,<hr>
 ,4 cup whole milk ricotta cheese
 ,1 1⁄2 cups powdered sugar
 ,1 tablespoon vanilla extract
@@ -6824,7 +6743,7 @@ untried'),('Easy florentines','http://www.kingarthurflour.com/recipes/easy-flore
 Yield: about 30 Florentines.',
     '1 1/4 cup Sticky Bun Sugar
 ,1 cup unblanched sliced almonds
-,1/2 serving [candied orange peel](http://www.xanthir.com/recipes/showrecipe.php?id=id383),<hr>
+,1/2 serving [candied orange peel](http://www.xanthir.com/recipes/showrecipe.php?id=id383) 
 ,1 cup semisweet or bittersweet chocolate, chopped','cookies
 dessert
 untried'),('Simple candied orange peel','http://www.epicurious.com/recipes/food/views/simple-candied-orange-peel-350798',600,
@@ -6840,7 +6759,6 @@ Makes about 2 cups',
     '2 large oranges, 1/4 inch of top and bottom cut off
 ,3 cup sugar
 ,3 cup water
-,<hr>
 ,1 cup sugar','dessert
 candy'),('Maple shortbread sandwich cookies','http://www.kingarthurflour.com/recipes/maple-shortbread-sandwich-cookies-recipe',2700,
     0, 1500,18,
@@ -6872,7 +6790,6 @@ Yield: about 18 medium (2") sandwich cookies.',
 ,1/2 teaspoon maple flavor
 ,1 cup flour
 ,2 tbsp flour
-,<hr>
 ,2 tablespoon unsalted butter, softened
 ,1 1/2 cup confectioners'' sugar
 ,1/4 teaspoon salt
@@ -6900,7 +6817,7 @@ Read more at: http://www.foodnetwork.com/recipes/ina-garten/pecan-squares-recipe
 ,4 1/2 cup all-purpose flour
 ,1/2 teaspoon baking powder
 ,1/4 teaspoon salt
-,<hr>,1 pound unsalted butter
+,1 pound unsalted butter
 ,1 cup good honey
 ,3 cup light brown sugar, packed
 ,1 teaspoon grated lemon zest
@@ -7019,20 +6936,18 @@ Bring sauce to simmer over medium heat. Simmer for 5 minutes. Transfer skillet t
 ,5 tablespoon olive oil
 ,1 tsp salt
 ,1/2 tsp pepper
-,<hr>,1 tbsp olive oil
+,1 tbsp olive oil
 ,2 clove garlic, minced
 ,1/4 teaspoon dried oregano
 ,Pinch red pepper flakes
 ,1/4 tsp salt
 ,2 14oz can crushed tomatoes
-,<hr>
 ,2 tbsp bread crumbs (or 1 slice of bread, toasted til crunchy)
 ,8 ounce whole-milk ricotta cheese
 ,1/2 cup Pecorino Romano cheese, grated
 ,1/4 cup basil, chopped
 ,1 tablespoon lemon juice
 ,1/4 tsp salt
-,<hr>
 ,1/4 cup Pecorino Romano cheese, grated
 ,1 tbsp basil, chopped','main
 vegetarian
@@ -7092,7 +7007,6 @@ Add 1 1/2 teaspoons oil, carrots, garlic, and scallion whites to skillet and coo
 ,3 tablespoon soy sauce
 ,1 tablespoon chili sauce, such as Sriracha
 ,1 tablespoon packed dark-brown sugar
-,<hr>
 ,2 tablespoon vegetable oil
 ,2 eggs, lightly beaten
 ,14 oz firm tofu, drained, thinly sliced, and patted dry
@@ -7140,7 +7054,6 @@ Combine all ingredients.',
 ,2 tbsp feta, crumbled 
 ,1/4 cup pine nuts, toasted 
 ,2 sprig dill, chopped
-,<hr>
 ,2 tablespoon tahini 
 ,1 tablespoon water 
 ,2 tablespoon lemon juice 
@@ -7203,7 +7116,6 @@ sauce'),('Black-eyed pea burgers with summer squash slaw','The Vegetarian Table 
 ,2 tbsp canola oil
 ,4 leaves green leaf lettuce
 ,4 hamburger buns
-,<hr>
 ,4 tbsp low-fat Greek yogurt
 ,2 tsp adobo sauce
 ,1 small zucchini, julienned
@@ -7224,7 +7136,6 @@ main'),('Korean scallion pancakes with vegetable salad','Vegetarian Table from P
 ,1 medium seedless cucumber, julienned, avoiding core
 ,1 cup fresh bean sprouts
 ,1/3 cup dry-roasted salted peanuts, coarsely chopped
-,<hr>
 ,2 cup all-purpose flour
 ,4 green onions, with tops, thinly sliced
 ,2 clove garlic, pressed
@@ -7260,10 +7171,8 @@ main'),('Sweet and sour wheatballs','Vegetarian Table by Pampered Chef',1500,
 ,3 clove garlic, pressed
 ,1/4 tsp salt
 ,1/4 tsp black pepper
-,<hr>
 ,1/2 cup panko
 ,2 1/2 tbsp canola oil
-,<hr>
 ,2/3 cup sweet and sour sauce, or teriyaki sauce with honey
 ,1 large bell pepper, thinly sliced
 ,1 cup frozen shelled edamame beans, thawed
@@ -7310,13 +7219,11 @@ Other marinade ideas: minced ginger, minced garlic, lemon or lime juice, hot sau
 ,1/2 cup olive oil
 ,2 tbsp red wine vinegar
 ,1 tsp salt
-,<hr>
 ,black beans
 ,6 servings [guacamole](http://www.xanthir.com/recipes/showrecipe.php?id=id404),pico de gallo (recipe below)
 ,shredded romaine lettuce
 ,chopped yellow bell pepper
 ,Monterey jack cheese, shredded
-,<hr>
 ,1 1/2 lb tomatoes, cut into 1/4 to 1/2 inch dice
 ,kosher salt
 ,1/2 large white onion, finely diced (about 3/4 cup for full recipe)
@@ -7368,11 +7275,11 @@ party'),('Crunchy quinoa cutlets with fresh tomato salsa','The Vegetarian Table 
 ,1/4 tsp black pepper
 ,3 oz feta cheese, crumbled
 ,1 tbsp olive oil, divided
-,<hr>,1/2 tbsp olive oil
+,1/2 tbsp olive oil
 ,8 cup baby spinach
 ,1/4 tsp salt
 ,1/4 tsp black pepper
-,<hr>,2 cup grape tomatoes, quartered
+,2 cup grape tomatoes, quartered
 ,1/4 cup fresh basil, loosely packed, thinly sliced
 ,1/4 tsp salt
 ,1/4 tsp black pepper
@@ -7397,7 +7304,6 @@ Note: the Chipotle Rub this recipe calls for is a Pampered Chef product',
 ,1 avocado, diced
 ,1 tbsp Chipotle Rub
 ,1/4 tsp salt
-,<hr>
 ,14 oz extra-firm tofu, drained and patted dry
 ,1/4 tsp salt
 ,1 1/2 cup panko
@@ -7457,7 +7363,7 @@ Note: white cheddar cheese can be substituted for the manchego, if desired',
 ,3 oz manchego cheese, shredded
 ,1/2 tsp black pepper, coarsely ground
 ,2 tbsp fresh parsley, chopped
-,<hr>,2 tbsp sherry vinegar
+,2 tbsp sherry vinegar
 ,2 tbsp honey
 ,1 tbsp olive oil
 ,1 tsp Dijon mustard
@@ -7483,7 +7389,7 @@ untried'),('Roasted root vegetables with creamy grits','The Vegetarian Table by 
 ,2 tsp sugar
 ,3/4 tsp salt
 ,1/2 tsp black pepper, coarsely ground
-,<hr>,4 1/2 cup milk
+,4 1/2 cup milk
 ,1 sprig fresh rosemary
 ,1 cup millet grits
 ,1 oz Parmesan cheese, grated
@@ -7517,7 +7423,6 @@ untried'),('Farmer''s market vegetable pot pie','The Vegetarian Table by Pampere
 ,2 tbsp all-purpose flour
 ,1 cup milk
 ,4 oz garlic and herb-flavored cheese spread (such as Boursin)
-,<hr>
 ,8 sheets frozen phyllo dough, thawed
 ,Nonstick cooking spray
 ,1/2 cup fresh parsley (loosely packed)','vegetarian
@@ -7538,9 +7443,9 @@ main'),('Eggplant parmesan pizza','The Vegetarian Table by Pampered Chef',2400,
 ,2 tsp sugar
 ,1 tsp fresh rosemary, finely chopped
 ,1/2 tsp black pepper, coarsely ground
-,<hr>,1 lb refrigerated pizza dough
+,1 lb refrigerated pizza dough
 ,1 tbsp olive oil
-,<hr>,1 lb Japanese eggplant, ends trimmer and sliced into 1/2-in disks
+,1 lb Japanese eggplant, ends trimmer and sliced into 1/2-in disks
 ,2 tbsp olive oil
 ,8 oz mozzarella cheese, shredded
 ,1/2 oz Parmesan cheese, grated
@@ -7578,7 +7483,6 @@ sandwich'),('Barley risotto verde','The Vegetarian Table by Pampered Chef',600,
 ,4 clove garlic, pressed
 ,1 cup medium pearled barley (not quick-cooking)
 ,1 cup dry white wine
-,<hr>
 ,1 clove garlic
 ,2 cup fresh basil (loosely packed)
 ,1 1/2 cup baby spinach
@@ -7668,7 +7572,6 @@ Wipe the pan clean and reheat it over medium heat. Working in batches, add the s
 ,3 clove garlic, roughly chopped
 ,1 1/2 tablespoon extra-virgin olive oil
 ,1 orange, juiced
-,<hr>
 ,4 small whole-wheat hoagie rolls, split
 ,1/4 cup yellow mustard
 ,tabasco, to taste
@@ -7706,7 +7609,6 @@ Read more at: http://www.foodnetwork.com/recipes/bobby-flay/wild-mushroom-and-ca
 ,3 tablespoon fresh flat-leaf parsley, chopped
 ,Salt and freshly ground black pepper
 ,Honey
-,<hr>
 ,1 medium head cauliflower
 ,2 tablespoon olive oil
 ,Salt and freshly ground black pepper
@@ -7715,7 +7617,6 @@ Read more at: http://www.foodnetwork.com/recipes/bobby-flay/wild-mushroom-and-ca
 ,5 cup whole milk, heated, divided
 ,1/8 teaspoon freshly grated nutmeg
 ,1/2 cup romano cheese, grated
-,<hr>
 ,1 pound part-skim ricotta cheese
 ,1 large egg
 ,3/4 cup fresh flat-leaf parsley, finely chopped, divided, plus more for garnish
@@ -7823,14 +7724,12 @@ Then, do the following two things simultaneously:
 
 Finally, sprinkle with parmesan and chives.',
     '4 slices country bread, toasted
-,<hr>
 ,1 teaspoon olive oil
 ,1 cup grape tomatoes, halved
 ,1/2 tsp kosher salt 
 ,1/2 tsp black pepper
 ,1 pound mushrooms, sliced
 ,1 tablespoon fresh thyme
-,<hr>
 ,8 large eggs
 ,1 ounce Parmesan, shaved
 ,2 tablespoon chopped fresh chives','breakfast
@@ -7915,7 +7814,6 @@ Assemble salad: Toss cooked pasta with walnut dressing and additional vinegar an
 ,1/8 cup sun-dried tomatoes in oil, minced
 ,1/8 tbsp salt
 ,1/8 tbsp red pepper flakes
-,<hr>
 ,6oz curly pasta
 ,1 medium eggplant
 ,salt
@@ -8061,7 +7959,7 @@ Read more at: http://www.foodnetwork.com/recipes/food-network-kitchens/bourbon-p
 ,1/4 teaspoon kosher salt
 ,1 1/2 teaspoon vanilla extract
 ,2 1/4 cup pecans, toasted
-,<hr>,1 1/2 cup cake flour
+,1 1/2 cup cake flour
 ,1 teaspoon baking soda
 ,1/4 teaspoon freshly grated nutmeg
 ,1/4 teaspoon fine salt
@@ -8092,7 +7990,7 @@ Serve the salmon burgers atop a mound of the Caesar slaw.',
 ,Black pepper
 ,Salt
 ,2 tbsp extra-virgin olive oil
-,<hr>,1 garlic cloves, finely chopped
+,1 garlic cloves, finely chopped
 ,1 lemon, juiced
 ,4 anchovies, finely chopped (optional)
 ,2 tsp Dijon mustard
@@ -8134,7 +8032,6 @@ untried'),('Leek Salad with Grilled Haloumi Cheese and Wheat Berries','Ancient G
 To get a head start: Make the wheat berries, as in step 1, ahead. The salad (without the haloumi) can be prepared 4 to 6 hours ahead. Chill, covered. Bring to room temperature before serving.',
     '1 1/2 cup water
 ,3/4 wheat berries
-,<hr>
 ,2 medium leeks, cleaned and cut into 3/4-inch segments
 ,1/2 cup low-sodium chicken broth (or vegetable broth)
 ,1 strip orange zest (2 by 1 inch), optional
@@ -8145,7 +8042,6 @@ To get a head start: Make the wheat berries, as in step 1, ahead. The salad (wit
 ,2 tbsp nonpareil capers
 ,3/4 tsp fennel seeds
 ,1/4 tsp black pepper, freshly ground
-,<hr>
 ,1/4 lb haloumi cheese
 ,1 1/2 tsp dried oregano (or thyme)
 ,1/4 tsp black pepper, freshly ground
@@ -8169,7 +8065,6 @@ Spray a baking sheet or broiler pan with cooking spray. Place salmon on sheet, s
 ,Coarse salt and freshly ground black pepper
 ,1 scallion, thinly sliced
 ,Nonstick cooking spray
-,<hr>
 ,1 cup couscous
 ,1/2 lime, zested
 ,2 cup water
@@ -8196,18 +8091,14 @@ untried'),('Salmon Nicoise Salad','http://www.marthastewart.com/318648/salmon-ni
 ,12 oz red new potatoes
 ,1/4 teaspoon dried rosemary
 ,1 tsp olive oil
-,<hr>
 ,8 oz green beans, trimmed
-,<hr>
 ,2 skinless salmon fillets (about 8 ounces each)
 ,coarse salt and ground pepper
-,<hr>
 ,2 head Boston lettuce
 ,4 plum tomatoes
 ,3 Hard-Cooked Eggs
 ,1 medium red onion
 ,1/4 cup Kalamata olives, sliced
-,<hr>
 ,2 tablespoon fresh lemon juice
 ,1 tablespoon Dijon mustard
 ,Coarse salt and fresh ground pepper
@@ -8309,15 +8200,12 @@ For Blanched Broccoli:
 ,black pepper, to taste
 ,1/2 tbsp soy sauce
 ,lettuce leaves (to use as bento dividers), washed and dried
-,<hr>
 ,1 large green cabbage leaf
 ,1 2-inch length English cucumber, sliced into thin rounds
 ,1/2 tsp sea salt
 ,1 tbsp lemon juice
-,<hr>
 ,4 florets frozen broccoli
 ,4 cherry tomatoes
-,<hr>
 ,1 cup cooked rice','bento
 lunch
 main'),('Tamagoyaki Bento','The Just Bento Cookbook by Makiko Itoh',900,
@@ -8392,15 +8280,12 @@ If you want a little more kick, add togarashi to the eggs, and/or drizzle some s
 ,1/4 tsp soy sauce
 ,vegetable oil, for frying
 ,fresh parsley (for garnish)
-,<hr>
 ,1/4 small carrot, cut into green bean-equivalent sticks
 ,5 green beans, topped and tailed
 ,salt
 ,6 slices salami (6 slices ≈ 1oz)
 ,2 tbsp cream cheese, softened
-,<hr>
 ,1 cup cooked sushi rice
-,<hr>
 ,olive oil
 ,1 clove garlic, diced small
 ,2 oz baby spinach
@@ -8539,7 +8424,6 @@ Make sure the lettuce leaves are completely dry (pat dry if needed with kitchen 
 ,1 Tbsp fresh parsley, finely chopped
 ,1/2 tsp salt
 ,freshly ground black pepper
-,<hr>
 ,1 cup uncooked small pasta (such as tiny bowties/farfalline/small elbow macaroni/orzo)
 ,1/2 cup cherry tomatoes
 ,1/2 cup snowpeas
@@ -8660,12 +8544,10 @@ To freeze: Individually wrap the rolls in plastic wrap and place them in a zip-t
 ,15 ounce all-purpose flour divided into 10 ounces, 4 ounces and 1 ounce batches
 ,1 package rapid rise yeast, approximately 1/4 ounce
 ,1 1/4 teaspoon kosher salt
-,<hr>
 ,8 ounce light brown sugar
 ,1 tablespoon cinnamon, ground
 ,Pinch kosher salt
 ,1 1/2 tablespoon unsalted butter, melted
-,<hr>
 ,2 1/2 ounce cream cheese, softened
 ,3 tablespoon milk
 ,5 1/2 ounce confectioners'' sugar','breakfast'),('Sweet pepper and onion confit','http://justbento.com/handbook/johbisai/sweet-pepper-and-onion-confit',1200,
@@ -8721,7 +8603,6 @@ untried'),('Basic bento: tofu and egg','Rachel Atkins',900,
 ,1 tablespoon soy sauce
 ,1 tablespoon rice vinegar
 ,1 tablespoon water
-,<hr>
 ,1 medium carrot
 ,1/4 cup frozen green beans
 ,1 egg, hard-cooked
@@ -8785,7 +8666,7 @@ Add veggies and shrimp to bowl with vinaigrette, gently toss. Serve, drizzling a
 ,4 endive, halved lengthwise
 ,2 medium red onion, each cut into 6 wedges
 ,1/2 lb shrimp, deveined and peeled
-,<hr>,2 tbsp extra-virgin olive oil
+,2 tbsp extra-virgin olive oil
 ,2 tbsp fresh sage, chopped
 ,1 tbsp lemon juice
 ,1 1/2 tbsp red wine vinegar
@@ -8883,7 +8764,6 @@ untried'),('Restaurant Style Butter Chicken in Slow Cooker','http://www.chefdeho
 ,3 clove Garlic, peeled
 ,1/2 tsp Salt
 ,1/3 Cup non-fat Greek yogurt
-,<hr>
 ,1 1/2 lb Chicken (boneless chicken thigh), cut into 2-­3 inch cubes
 ,1/2 tsp garam masala
 ,2 tbsp Cilantro, chopped, for garnish
@@ -8991,9 +8871,9 @@ Place the radishes in a bowl; drizzle with olive oil and season with salt and pe
 ,1/2 lime, juiced
 ,3 Ounces White Cheddar Cheese
 ,2 large flour tortillas
-,<hr>,1/2 lime, juiced
+,1/2 lime, juiced
 ,2 Tablespoons Creme Fraiche
-,<hr>,2 tsp olive oil, plus more for drizzling on radishes
+,2 tsp olive oil, plus more for drizzling on radishes
 ,1/4 tsp taco seasoning
 ,3 Radishes, halved lengthwise then thinly sliced crosswise
 ,2 Eggs','vegetarian
@@ -9042,18 +8922,15 @@ To assemble salad: In a large bowl, layer half (each) of the bread, dressing, ve
 ,4 tbsp rice wine vinegar
 ,1 tbsp sugar
 ,1 scallion, finely chopped
-,<hr>
 ,1/2 cup mayo or vegan mayo
 ,1/4 cup reserved tofu marinade (plus more if needed)
 ,1 tbsp sriracha (or more/less to taste)
-,<hr>
 ,2 carrots, peeled and thinly sliced on an angle
 ,2/3 English cucumber, halved, seeds scraped out and thinly sliced at an angle
 ,1 bunch radishes, quartered
 ,6 tbsp rice vinegar
 ,2 tsp sea salt
 ,1/2 tsp sugar
-,<hr>
 ,8 oz French bread, cut into 1″ cubes (needs to be stale, if bread is too fresh, leave cubes on the counter overnight to stale)
 ,1/4 cup fresh cilantro, stems removed
 ,2 tbsp black sesame seeds, for sprinkling','vegetarian
@@ -9135,14 +9012,11 @@ In the same pan, heat 2 teaspoons of olive oil on medium-high until hot. Add the
 
 Dish up the rice, top with tofu and vegetables. Garnish with the fried shallot, cilantro and mint. Top with juice of remaining lime wedges.',
     '1/2 cup white Jasmine rice
-,<hr>
 ,1 shallot, peeled and thinly sliced
 ,2 tbsp rice flour
-,<hr>
 ,4 oz sweet peppers, halved lengthwise, seeds/ribs removed, thinly sliced crosswise
 ,1 zucchini, large diced
 ,2 green onions, thinly sliced, whites and greens separated
-,<hr>
 ,7 oz tofu
 ,2 clove garlic, roughly chopped
 ,1 lime, halved
@@ -9169,7 +9043,6 @@ asian'),('Olive and Pepper Grilled Cheese Sandwiches','Blue Apron',1200,
 ,4 oz White Cheddar Cheese, shredded
 ,2 oz Castelvetrano Olives, pitted and finely chopped
 ,2 oz Pickled peppadew peppers, finely chopped
-,<hr>
 ,6 oz Cherry Tomatoes, halved
 ,1 head Butter Lettuce, washed and dried, torn into bite sized pieces
 ,1 clove Garlic, minced
@@ -9226,7 +9099,6 @@ To assemble:
 ,1 cup panko breadcrumbs
 ,all purpose flour
 ,canola oil
-,<hr>
 ,4 nori sheets
 ,4 cup cooked sushi rice
 ,1 avocado, sliced
@@ -9354,7 +9226,6 @@ Wipe out the pan used to cook the vegetables. In the same pan, heat a drizzle of
 ,1 Poblano Pepper, seeded and thinly sliced crosswise
 ,1 Vidalia Onion, thinly sliced and divided
 ,2 oz Pickled Goathorn Peppers, roughly chopped
-,<hr>
 ,1 large carrot, shredded
 ,3 Radishes, halved and thinly sliced','vegetarian
 main
@@ -9378,12 +9249,10 @@ To the bowl of **roasted broccoli**, add the **mirin** and **soy sauce**. Toss t
 ,1 Avocado, medium diced
 ,1/2 lb Broccoli, cut into bite-size florets
 ,1/2 tbsp rice vinegar
-,<hr>
 ,2 Rainbow Carrots, thinly sliced at an angle
 ,1 1/2 Tbsp Rice Vinegar
 ,1 1/2 Tbsp Sugar
 ,1 Tbsp Gochujang
-,<hr>
 ,1 Tbsp Mirin
 ,1 Tbsp Soy Sauce
 ,1 tsp Furikake
@@ -9431,15 +9300,13 @@ When the freekeh and vegetables are both done, add to the bowl. Add pepper, chop
 Serve with lemon yogurt on top or on the side.',
     '3/4 lb Brussels sprouts, trimmed and halved lengthwise
 ,2 medium carrots, halved lengthwise and cut crosswise in 1-in pieces
-,<hr>
 ,1 2/3 cup water
 ,1 clove garlic, pressed
 ,2/3 cup cracked freekeh
-,<hr>
 ,1 lemon, zested, juice divided
 ,1 clove garlic, pressed
 ,1/2 cup plain greek yogurt
-,<hr>,2 tbsp almonds, roasted and roughly chopped
+,2 tbsp almonds, roasted and roughly chopped
 ,2 dried medjool dates, roughly chopped
 ,1 tbsp fresh mint
 ,2 tbsp pickled Peruvian peppers (tiny red drop shape)
@@ -9485,7 +9352,6 @@ Top each serving with some cherries, 1 tbsp yogurt and a little extra honey, if 
 ,1/4 cup Greek yogurt
 ,2 tbsp milk
 ,1/2 tbsp honey, plus extra to serve (optional)
-,<hr>
 ,1/2 cup cherries, halved and pitted
 ,2 tbsp Greek yogurt
 ,1 oz semisweet chocolate chips','untried
@@ -9615,7 +9481,6 @@ main'),('Black bean mini burgers','The Just Bento Cookbook by Itoh',900,
 ,1/2 tsp ground cumin
 ,1 tsp flour
 ,1/2 tsp ground allspice
-,<hr>
 ,1 tbsp vegetable oil
 ,salsa, for dipping','vegetarian
 bento'),('Mini hamburger bento (Select a mini burger recipe too)','The Just Bento Cookbook by Itoh',0,
@@ -9631,16 +9496,13 @@ bento'),('Mini hamburger bento (Select a mini burger recipe too)','The Just Bent
     '1 serving mini burger recipe
 ,1 2-inch length of carrot, sliced into 1/4 inch rounds
 ,1/2 oz cheese
-,<hr>
 ,1/2 medium red onion, very thinly sliced
 ,salt
 ,1/4 cup parsley, loosely packed, finely chopped
 ,black pepper
 ,1 tsp rice vinegar
 ,1 pinch sugar
-,<hr>
 ,1/4 cup snow peas
-,<hr>
 ,1 cup cooked short-grain white rice
 ,sesame salt, for sprinkling','bento
 main'),('Fresh salmon mini burgers','The Just Bento Cookbook by Itoh',900,
@@ -9655,7 +9517,6 @@ main'),('Fresh salmon mini burgers','The Just Bento Cookbook by Itoh',900,
 ,1 egg
 ,2 tbsp fresh dill, chopped
 ,2 tbsp cream cheese
-,<hr>
 ,1 tbsp butter
 ,1 tbsp vegetable oil','bento
 main
@@ -9722,7 +9583,6 @@ While the sandwiches cook, whisk together the **mustard**, **mayo**, **vinegar**
 ,2 oz white cheddar cheese, thinly sliced
 ,1 tbsp butter
 ,1 clove garlic
-,<hr>
 ,3 cup salad greens, washed and torn
 ,3 oz radishes, halved and thinly sliced
 ,1/2 tbsp dijon mustard
@@ -9748,7 +9608,6 @@ Bake the enchiladas 7 to 9 minutes, or until lightly browned and the cheese is m
 ',
     '1/2 cup White Jasmine Rice
 ,1/2 serving [Mexican spice blend](https://www.xanthir.com/recipes/showrecipe.php?id=id519),1 cup water
-,<hr>
 ,2 tsp olive oil
 ,1 Zucchini, medium diced
 ,1 15-Ounce Can Black Beans, drained and rinsed
@@ -9758,7 +9617,6 @@ Bake the enchiladas 7 to 9 minutes, or until lightly browned and the cheese is m
 ,2 Tbsp Ancho Chile Paste
 ,1/2 cup water
 ,1/4 cup Sour Cream Or Mexican Crema
-,<hr>
 ,4 small flour tortillas
 ,2 oz White Cheddar Cheese, grated','vegetarian
 main'),('Mexican spice blend','Blue Apron',300,
@@ -9788,13 +9646,13 @@ Build the sandwiches using the toasted baguettes, spicy mayonnaise, cooked mushr
     '1/2 lb Broccoli, cut into small florets
 ,1/2 lb Cremini Mushrooms, quartered
 ,1 1-Inch Piece Ginger, peeled and finely chopped
-,<hr>,1/4 cup Mayonnaise
+,1/4 cup Mayonnaise
 ,1 Tbsp Sambal Oelek
-,<hr>,3 oz Radishes, thinly sliced into half-moons
+,3 oz Radishes, thinly sliced into half-moons
 ,6 oz Carrots, grated
 ,1 Tbsp Sugar
 ,2 Tbsp Rice Vinegar
-,<hr>,2 Small Baguettes, halved
+,2 Small Baguettes, halved
 ,1/2 tsp Black sesame seeds
 ,1/2 tsp White Sesame Seeds
 ,Olive oil
@@ -9820,13 +9678,11 @@ To prepare the salad, put the salad greens in a salad bowl, and top with the pic
 Garnish quesadillas and salad with **cotija**.',
     '1 sweet potato, sliced into ¼" rounds
 ,1/2 tbsp mexican spice
-,<hr>
 ,3 cup salad greens
 ,1 avocado, sliced
 ,1 shallot, thinly sliced
 ,1 tbsp sugar
 ,1 lime, divided and juiced
-,<hr>
 ,4 oz white cheddar cheese, grated
 ,1 jalapeño (preferably pickled), roughly chopped
 ,1/4 cotija cheese, grated
@@ -9927,7 +9783,6 @@ Sprinkle with the remaining cheese, then toss the breadcrumbs with the melted bu
 ,9 ounce sharp cheddar cheese, grated
 ,1 teaspoon kosher salt
 ,1/2 teaspoon black pepper, freshly ground
-,<hr>
 ,3 ounce sharp cheddar cheese, grated
 ,3 tablespoon unsalted butter, melted
 ,1 cup panko breadcrumbs','vegetarian
@@ -9949,7 +9804,7 @@ Add 2 teaspoons of olive oil, the shallot, and the garlic to the pan; season wit
 Add the cooked pasta, butter, and half the reserved pasta cooking water to the pan of cooked kale. Cook on medium-high, stirring vigorously, 1 to 2 minutes, or until the pasta is thoroughly coated. (If the pasta seems dry, gradually add the remaining cooking water to achieve your desired consistency.) Turn off the heat and season with salt and pepper to taste. Divide the finished pasta between 2 dishes. Drizzle with olive oil. Top with the fried rosemary and walnuts. Garnish with the cheese. Enjoy!',
     '1 bunch Rosemary, stems removed
 ,1/4 cup Walnuts, roughly chopped
-,<hr>,6 oz dried cavatelli pasta
+,6 oz dried cavatelli pasta
 ,2 tsp olive oil
 ,1 Shallot, peeled and thinly sliced
 ,2 clove Garlic, peeled and roughly chopped
@@ -9957,7 +9812,7 @@ Add the cooked pasta, butter, and half the reserved pasta cooking water to the p
 ,1/4 tsp Crushed Red Pepper Flakes
 ,2 Tbsp White wine vinegar
 ,1/4 cup Heavy Cream
-,<hr>,2 Tbsp Butter
+,2 Tbsp Butter
 ,1/2 cup reserved pasta cooking water
 ,2 Tbsp Parmesan, grated','vegetarian
 main
@@ -9998,7 +9853,6 @@ Serve falafel immediately with salad, topping both with spicy feta sauce and ser
 ,1 1/2 tsp ground cumin
 ,3/4 tsp ground coriander
 ,1/4 tsp cayenne pepper
-,<hr>
 ,8 oz feta cheese (block form)
 ,1 clove garlic, chopped
 ,1/2 teaspoon dried oregano
@@ -10006,7 +9860,6 @@ Serve falafel immediately with salad, topping both with spicy feta sauce and ser
 ,1/4 cup olive oil
 ,2 tablespoon water
 ,1 teaspoon lemon juice
-,<hr>
 ,1/2 cup red onion, thinly sliced
 ,1 cup cherry tomatoes, halved
 ,1 cup English cucumber, thinly sliced into half-moons
@@ -10033,11 +9886,9 @@ Wrap plastic wrap tightly around onigirazu. Refrigerate for a few minutes to sof
 ,1 tbsp rice vinegar
 ,2 tsp sugar
 ,1/2 tsp salt
-,<hr>
 ,1 tbsp mayonnaise
 ,1 tsp chili sauce, such as Sriracha, sambal olek, etc
 ,1 tsp toasted sesame oil
-,<hr>
 ,1 can salmon, drained
 ,lettuce
 ,2 radishes, thinly sliced
@@ -10201,7 +10052,6 @@ Use a cupcake corer or small spoon to scoop some of the center out of each cupca
 ,2 large eggs
 ,1/2 cup milk
 ,2 teaspoon vanilla extract
-,<hr>
 ,6 tbsp unsalted butter, softened
 ,1/3 cup vegetable shortening
 ,1/8 tsp salt
@@ -10250,7 +10100,6 @@ With the mixer running on low speed, add the cocoa mixture a spoonful at a time 
 ,1 cup milk
 ,1/2 cup coffee or water
 ,4 large eggs
-,<hr>
 ,1 3/4 cup unsweetened baking cocoa
 ,1 1/2 cup confectioners'' sugar
 ,1 teaspoon espresso powder, optional, for enhanced chocolate flavor
@@ -10274,18 +10123,15 @@ While the carrots continue to roast, place the **rolls** on a clean, dry work su
 
 While the sandwiches cook, to make the dressing, place the **reserved pickling liquid** in a bowl; slowly whisk in 1 tablespoon of olive oil until well combined. Season with salt and pepper to taste. In a large bowl, combine the **baby greens** and **roasted carrots**; season with salt and pepper. Add enough of the dressing to coat the salad (you may have extra dressing); toss to combine. Season with salt and pepper to taste. Divide the cooked sandwiches and salad between 2 dishes. Enjoy!',
     '2 Eggs
-,<hr>
 ,2 Tbsp  Mayonnaise
 ,1 1/2 Tbsp  Capers, roughly chopped
 ,1 clove Garlic, pressed
 ,1/8 tsp Smoked Paprika
-,<hr>
 ,2 Carrots, quartered lengthwise and cut crosswise into 2-inch pieces
 ,1 Red Beet, see instructions for prep
 ,1/4 cup Red Wine Vinegar
 ,1 Shallot, peeled and thinly sliced
 ,3/4 cup water
-,<hr>
 ,2 Ciabatta Rolls, halved
 ,1 bunch Dill, roughly chopped
 ,1/4 cup Crumbled Feta Cheese
@@ -10360,13 +10206,13 @@ Assemble the sandwiches using the toasted baguettes, smoked gouda spread, marina
     '2 Persian cucumbers, thinly sliced on an angle
 ,1 Tbsp sugar
 ,1/2 Tbsp apple cider vinegar
-,<hr>,2 eggs
+ ,2 eggs
 ,2 small baguettes or rolls, cut in half and some inner bread removed
-,<hr>,2 oz smoked Gouda cheese, grated
+ ,2 oz smoked Gouda cheese, grated
 ,2 Tbsp mayonnaise
 ,1/2 Tbsp Southern Spice Blend
 ,1 oz pickled jalapenos, chopped
-,<hr>,1 Tbsp Dijon mustard
+ ,1 Tbsp Dijon mustard
 ,1/2 Tbsp apple cider vinegar
 ,1 Tbsp olive oil
 ,1 persimmon (pear or apple can be substituted), cored and thinly sliced
@@ -10387,18 +10233,14 @@ While the slaw marinates, in a bowl, combine the chopped garlic, mayonnaise, rem
     '3/4 lb sweet potatoes, peeled and cut into 1/4-inch thick rounds
 ,1 tbsp sweet white miso paste
 ,1 tbsp olive oil
-,<hr>
 ,1/2 cup sushi rice, uncooked
 ,3/4 cup water
 ,1 tbsp mirin
 ,1/2 tbsp rice vinegar
-,<hr>
 ,2 eggs
-,<hr>
 ,2 green onions, thinly sliced, white and green parts separated
 ,1/2 lb cabbage, core removed and thinly sliced
 ,1/4 cup sweet chili sauce
-,<hr>
 ,2 tbsp mayonnaise
 ,1/2 tbsp rice vinegar
 ,2 clove black garlic, peeled and finely chopped
@@ -10474,14 +10316,11 @@ Mix the **mayo** and **vinegar**, season with salt and pepper to taste. Serve th
 ,1 zucchini, grated and strained dry
 ,1 oz dates, medium diced
 ,1/3 cup matzo meal
-,<hr>
 ,2 oz spinach (or other baby greens)
 ,1/2 tbsp sherry vinegar
-,<hr>
 ,2 cod fillets
 ,1 1/2 tbsp flour
 ,1/2 tbsp ras al hanout
-,<hr>
 ,1/2 tbsp sherry vinegar
 ,1/4 cup mayo','main
 fish'),('Cajun Catfish and Spiced Rice','https://www.blueapron.com/recipes/cajun-catfish-dirty-rice-with-collard-greens-mushrooms',900,
@@ -10503,7 +10342,7 @@ Divide rice, greens, and catfish between dishes; top catfish with mushrooms and 
 ,1 oz sweet piquante peppers, thinly sliced
 ,2 tbsp tomato paste
 ,1/2 cup long grain white rice
-,<hr>,1 bunch collard greens
+,1 bunch collard greens
 ,1 tbsp apple cider vinegar, divided
 ,4 oz cremini mushrooms, thinly sliced
 ,2 tbsp butter
@@ -10523,8 +10362,8 @@ fish'),('Indian-style paneer and creamy tomato curry','Blue Apron',2100,
 5. Add the cream and browned cheese. Cook, stirring frequently, 30 seconds to 1 minute, or until thoroughly combined. Turn off the heat. Season with salt and pepper to taste. Serve the curry over the cooked rice. Enjoy!',
     '1/2 cup long-grain white rice, uncooked
 ,1 cup water
-,<hr>,4 oz paneer cheese, medium diced
-,<hr>,2 clove garlic, roughly chopped
+,4 oz paneer cheese, medium diced
+,2 clove garlic, roughly chopped
 ,1 1-inch piece ginger, finely chopped
 ,1 zucchini, halved lengthwise, then thinly slice crosswise
 ,2 tbsp tomato paste
@@ -10595,7 +10434,7 @@ To assemble, place a piece of bread at the bottom of four wide, shallow bowls an
 ,2 tablespoon extra-virgin olive oil
 ,1 teaspoon kosher salt
 ,1 tablespoon white miso (heaping tbsp)
-,<hr>,4 thick slices crusty sourdough bread
+,4 thick slices crusty sourdough bread
 ,Extra-virgin olive oil
 ,1 garlic clove, peeled
 ,2 tablespoon parsley leaves, chopped

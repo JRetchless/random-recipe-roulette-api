@@ -17,8 +17,8 @@ app.use(session({ secret: 'keyboard cat', resave: false, saveUninitialized: true
 app.use(
   cors({
       origin: 
-      // "https://random-recipe-roulette.jonretchless.vercel.app",
-      'http://localhost:3000',
+      "https://random-recipe-roulette.jonretchless.vercel.app",
+      // 'http://localhost:3000',
       credentials: true
   })
 );
@@ -33,7 +33,7 @@ app.use(helmet())
 app.use('/api/users', usersRouter)
 app.use('/api/login', authRouter)
 app.use('/api/auth', authRouter)
-app.use('./api/logout', logoutRouter)
+app.use('/api/logout', logoutRouter)
 app.use('/api/recipes', recipesRouter)
 
 app.get('/', (req, res) => {
