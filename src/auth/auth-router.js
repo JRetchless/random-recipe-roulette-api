@@ -1,4 +1,3 @@
-const path = require('path')
 const express = require('express')
 const xss = require('xss')
 const AuthService = require('./auth-service')
@@ -33,8 +32,14 @@ authRouter
         req.session.user= user
         res.json({"status": 'success', "id": user.id})
       }
-      res.status(400).end()
-    })
-})
+      for (const [key, value] of Object.entries(data)) {
+        if (value == null) {
+          return res.status(400).json({
+            error: { message: `Missing '${key}' in request body` },
+          });
+        }
+      }
+    });
+});
 
-module.exports = authRouter
+module.exports = authRouter;

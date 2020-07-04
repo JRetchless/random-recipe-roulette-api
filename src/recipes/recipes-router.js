@@ -43,36 +43,44 @@ recipesRouter
         req.session.user.id
     )
 .then(recipe => {
-    res.json(recipe.map(serializeRecipe))
-})
-})
-.post(jsonParser, (req,res,next) => {
-    const { name, source, preptime, waittime, cooktime, servings, comments,
-            calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
-            ingredients, tags } = req.body
-    const newRecipe = { name, source, preptime, waittime, cooktime, servings, comments,
-        calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
-        ingredients, tags }
-
-    //how do I add in the user's name here, as an author?
-    for (const [key, value] of Object.entries(newRecipe)) {
-        if(value == null) {
-            return res.status(400).json({
-               error: { message: `Missing '${key}' in request body`} 
-            })
-        }
+    if (recipe === null){
+        res.status(400).json({
+            error: {message: "no recipes"}
+        });
     }
-    RecipesService.insertRecipe(
-        req.app.get('db'),
-        newRecipe
-    )
-    .then(recipe => {
-        res
-            .status(201)
-            .json(serializeRecipe(recipe))
-    })
-    .catch(next)
-})
+    res.json(recipe.map(serializeRecipe));
+});
+});
+
+// FOR FUTURE VERSION!!!
+
+// .post(jsonParser, (req,res,next) => {
+//     const { name, source, preptime, waittime, cooktime, servings, comments,
+//             calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
+//             ingredients, tags } = req.body
+//     const newRecipe = { name, source, preptime, waittime, cooktime, servings, comments,
+//         calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
+//         ingredients, tags }
+
+//     //how do I add in the user's name here, as an author?
+//     for (const [key, value] of Object.entries(newRecipe)) {
+//         if(value == null) {
+//             return res.status(400).json({
+//                error: { message: `Missing '${key}' in request body`} 
+//             })
+//         }
+//     }
+//     RecipesService.insertRecipe(
+//         req.app.get('db'),
+//         newRecipe
+//     )
+//     .then(recipe => {
+//         res
+//             .status(201)
+//             .json(serializeRecipe(recipe))
+//     })
+//     .catch(next)
+// })
 
 recipesRouter
 .route('/random/:recipe_id')
@@ -82,6 +90,11 @@ recipesRouter
         req.params.recipe_id
     )
     .then(recipe => {
+        if (recipe === null){
+            res.status(400).json({
+                error: {message: "no recipes"},
+            });
+        }
         res.json(serializeRecipe(recipe))
     })
 })
@@ -94,6 +107,11 @@ recipesRouter
         req.session.user.id
     )
     .then(names => {
+        if (names === null){
+            res.status(400).json({
+                error: {message: "no recipes"},
+            });
+        }
         res.json(names.map(serializeNames))
     })
 })

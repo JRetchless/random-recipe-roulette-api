@@ -32,7 +32,6 @@ app.use(helmet())
 
 app.use('/api/users', usersRouter)
 app.use('/api/login', authRouter)
-app.use('/api/auth', authRouter)
 app.use('/api/logout', logoutRouter)
 app.use('/api/recipes', recipesRouter)
 
