@@ -16,5 +16,6 @@ CREATE TABLE random_recipes (
     protein INTEGER,
     instructions TEXT NOT NULL,
     ingredients TEXT NOT NULL,
-    tags TEXT
+    tags TEXT,
+    author_id INTEGER REFERENCES random_recipe_users(id) ON DELETE CASCADE
 );

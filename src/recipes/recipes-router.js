@@ -1,6 +1,7 @@
 const express=require('express')
 const xss = require('xss')
 const RecipesService=require('./recipes-service')
+const UsersService = require ('../users/users-service');
 
 const recipesRouter= express.Router()
 const jsonParser=express.json()
@@ -25,7 +26,9 @@ const serializeRecipe = recipe => ({
     protein: recipe.protein,
     instructions: xss(recipe.instructions),
     ingredients: xss(recipe.ingredients),
-    tags: xss(recipe.tags)
+    tags: xss(recipe.tags),
+    firstname: xss(recipe.firstname),
+    lastname: xss(recipe.lastname)
 })
 
 const serializeNames = data => ({
@@ -50,37 +53,34 @@ recipesRouter
     }
     res.json(recipe.map(serializeRecipe));
 });
-});
+})
 
-// FOR FUTURE VERSION!!!
+.post(jsonParser, (req,res,next) => {
+    const { name, source, preptime, waittime, cooktime, servings, comments,
+            calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
+            ingredients, tags } = req.body;
+    const newRecipe = { name, source, preptime, waittime, cooktime, servings, comments,
+        calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
+        ingredients, tags, author_id:req.session.user.id };
 
-// .post(jsonParser, (req,res,next) => {
-//     const { name, source, preptime, waittime, cooktime, servings, comments,
-//             calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
-//             ingredients, tags } = req.body
-//     const newRecipe = { name, source, preptime, waittime, cooktime, servings, comments,
-//         calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
-//         ingredients, tags }
-
-//     //how do I add in the user's name here, as an author?
-//     for (const [key, value] of Object.entries(newRecipe)) {
-//         if(value == null) {
-//             return res.status(400).json({
-//                error: { message: `Missing '${key}' in request body`} 
-//             })
-//         }
-//     }
-//     RecipesService.insertRecipe(
-//         req.app.get('db'),
-//         newRecipe
-//     )
-//     .then(recipe => {
-//         res
-//             .status(201)
-//             .json(serializeRecipe(recipe))
-//     })
-//     .catch(next)
-// })
+    for (const [key, value] of Object.entries(newRecipe)) {
+        if(value == null) {
+            return res.status(400).json({
+               error: { message: `Missing '${key}' in request body`}, 
+            });
+        }
+    }
+    RecipesService.insertRecipe(
+        req.app.get('db'),
+        newRecipe
+    )
+    .then((recipe) => {
+        res
+            .status(201)
+            .json(serializeRecipe(recipe))
+    })
+    .catch(next)
+})
 
 recipesRouter
 .route('/random/:recipe_id')
@@ -91,11 +91,18 @@ recipesRouter
     )
     .then(recipe => {
         if (recipe === null){
-            res.status(400).json({
+           return res.status(400).json({
                 error: {message: "no recipes"},
             });
         }
-        res.json(serializeRecipe(recipe))
+        UsersService.getById(
+            req.app.get('db'),
+            recipe.author_id)
+        .then((user) => {
+            recipe.firstname = user.firstname;
+            recipe.lastname = user.lastname;
+            res.json(serializeRecipe(recipe));
+        })
     })
 })
 
