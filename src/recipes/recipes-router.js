@@ -55,32 +55,32 @@ recipesRouter
 });
 })
 //make a recipe
-.post(jsonParser, (req,res,next) => {
-    const { name, source, preptime, waittime, cooktime, servings, comments,
-            calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
-            ingredients, tags } = req.body;
-    const newRecipe = { name, source, preptime, waittime, cooktime, servings, comments,
-        calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
-        ingredients, tags, author_id:req.session.user.id };
+// .post(jsonParser, (req,res,next) => {
+//     const { name, source, preptime, waittime, cooktime, servings, comments,
+//             calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
+//             ingredients, tags } = req.body;
+//     const newRecipe = { name, source, preptime, waittime, cooktime, servings, comments,
+//         calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
+//         ingredients, tags, author_id:req.session.user.id };
 
-    for (const [key, value] of Object.entries(newRecipe)) {
-        if(value == null) {
-            return res.status(400).json({
-               error: { message: `Missing '${key}' in request body`}, 
-            });
-        }
-    }
-    RecipesService.insertRecipe(
-        req.app.get('db'),
-        newRecipe
-    )
-    .then((recipe) => {
-        res
-            .status(201)
-            .json(serializeRecipe(recipe))
-    })
-    .catch(next)
-})
+//     for (const [key, value] of Object.entries(newRecipe)) {
+//         if(value == null) {
+//             return res.status(400).json({
+//                error: { message: `Missing '${key}' in request body`}, 
+//             });
+//         }
+//     }
+//     RecipesService.insertRecipe(
+//         req.app.get('db'),
+//         newRecipe
+//     )
+//     .then((recipe) => {
+//         res
+//             .status(201)
+//             .json(serializeRecipe(recipe))
+//     })
+//     .catch(next)
+// })
 
 recipesRouter
 .route('/random/:recipe_id')
