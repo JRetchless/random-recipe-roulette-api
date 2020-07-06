@@ -54,7 +54,7 @@ recipesRouter
     res.json(recipe.map(serializeRecipe));
 });
 })
-
+//make a recipe
 .post(jsonParser, (req,res,next) => {
     const { name, source, preptime, waittime, cooktime, servings, comments,
             calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
