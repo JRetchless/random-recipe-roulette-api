@@ -86,22 +86,32 @@ recipesRouter
         req.app.get('db'),
         req.params.recipe_id
     )
-    .then(recipe => {
+    .then((recipe) => {
         if (recipe === null){
            return res.status(400).json({
                 error: {message: "no recipes"},
             });
         }
-        // UsersService.getById(
-        //     req.app.get('db'),
-        //     recipe.author_id)
-        // .then((user) => {
-        //     recipe.firstname = user.firstname;
-        //     recipe.lastname = user.lastname;
-        //     res.json(serializeRecipe(recipe));
-        // })
-        res.json({message: 'hey look i work!'})
+        console.log("RECIPE.AUTHOR_ID")
+        console.log(recipe.author_id)
+        return UsersService.getById(
+            req.app.get('db'),
+            recipe.author_id)
+        
+        .then((user) => {
+            if(user && user.firstname) {
+                return {
+                    ...recipe, firstname: user.firstname, lastname: user.lastname
+                }
+            }
+        })
     })
+    .then((final) => {
+        console.log("FINAL")
+        console.log(final)
+            res.json(serializeRecipe(final));
+        })
+    
 })
 
 recipesRouter
