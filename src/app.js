@@ -17,10 +17,10 @@ app.use(session({ secret: 'keyboard cat', resave: false, saveUninitialized: true
 
 app.use(
   cors({
-      origin:  '*'
-      // "https://random-recipe-roulette.jonretchless.vercel.app",
+      origin:
+      "https://random-recipe-roulette.jonretchless.vercel.app",
       // 'http://localhost:3000',
-      // credentials: true
+      credentials: true
   })
 );
 
