@@ -17,5 +17,7 @@ CREATE TABLE random_recipes (
     instructions TEXT NOT NULL,
     ingredients TEXT NOT NULL,
     tags TEXT,
-    author_id INTEGER REFERENCES random_recipe_users(id) ON DELETE CASCADE
+    author_id INTEGER REFERENCES random_recipe_users(id) ON DELETE CASCADE,
+    firstname TEXT,
+    lastname TEXT
 );
