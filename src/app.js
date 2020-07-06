@@ -9,6 +9,7 @@ const usersRouter = require('./users/users-router')
 const authRouter = require('./auth/auth-router')
 const logoutRouter = require('./logout/logout-router')
 const recipesRouter = require('./recipes/recipes-router')
+
 const app = express()
 app.set('trust proxy', 1)
 
@@ -39,7 +40,6 @@ app.get('/', (req, res) => {
     res.send('Hello, world!')
 })
 
-app.use(session({ secret: 'keyboard cat', resave: false, saveUninitialized: true, cookie: { sameSite: 'None', secure: false } }))
 
 
 app.use(function errorHandler(error, req, res, next) {
