@@ -92,14 +92,15 @@ recipesRouter
                 error: {message: "no recipes"},
             });
         }
-        UsersService.getById(
-            req.app.get('db'),
-            recipe.author_id)
-        .then((user) => {
-            recipe.firstname = user.firstname;
-            recipe.lastname = user.lastname;
-            res.json(serializeRecipe(recipe));
-        })
+        // UsersService.getById(
+        //     req.app.get('db'),
+        //     recipe.author_id)
+        // .then((user) => {
+        //     recipe.firstname = user.firstname;
+        //     recipe.lastname = user.lastname;
+        //     res.json(serializeRecipe(recipe));
+        // })
+        res.json({message: 'hey look i work!'})
     })
 })
 
