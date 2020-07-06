@@ -92,25 +92,26 @@ recipesRouter
                 error: {message: "no recipes"},
             });
         }
-        console.log("RECIPE.AUTHOR_ID")
-        console.log(recipe.author_id)
-        return UsersService.getById(
-            req.app.get('db'),
-            recipe.author_id)
-        
-        .then((user) => {
-            if(user && user.firstname) {
-                return {
-                    ...recipe, firstname: user.firstname, lastname: user.lastname
+        if (recipe.author_id) {
+            console.log("RECIPE.AUTHOR_ID")
+            console.log(recipe.author_id)
+            UsersService.getById(
+                req.app.get('db'),
+                recipe.author_id
+            )            
+            .then((user) => {
+                if(user && user.firstname) {
+                res.json(serializeRecipe({
+                        ...recipe, firstname: user.firstname, lastname: user.lastname
+                    }))
                 }
-            }
-        })
+            })
+        } else {
+            console.log('no author_id')
+            res.json(serializeRecipe(recipe))
+        }
     })
-    .then((final) => {
-        console.log("FINAL")
-        console.log(final)
-            res.json(serializeRecipe(final));
-        })
+
     
 })
 
