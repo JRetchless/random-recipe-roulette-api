@@ -1,22 +1,22 @@
 const RecipesService = {
     getAllRecipes(knex) {
-        return knex.select('*').from('random_recipes')
+        return knex.select('*').from('random_recipes');
     },
-    getRecipe( knex, recipe_id) {
-        return knex.select('*').from('random_recipes').where('id', recipe_id).first()
+    getRecipe(knex, recipe_id) {
+        return knex.select('*').from('random_recipes').where('id', recipe_id).first();
     },
-    insertRecipe( knex, newRecipe ) {
+    insertRecipe(knex, newRecipe) {
         return knex
         .insert(newRecipe)
         .into('random_recipes')
         .returning('*')
-        .then(rows => {
-            return rows[0]
-        })
+        .then((rows) => {
+            return rows[0];
+        });
     },
     getNames(knex) {
-        return knex.select('name').from('random_recipes')
-    }
-}
+        return knex.select('name').from('random_recipes');
+    },
+};
 
-module.exports = RecipesService
+module.exports = RecipesService;

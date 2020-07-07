@@ -1,9 +1,8 @@
 const AuthService = {
-    getUser(knex, email, p_word) {
+    getUser(knex, email) {
       return knex.select('id').from('random_recipe_users').where('email', email).
-      first()
+      first();
     },
-  }
- 
-  module.exports = AuthService
-  
+  };
+
+  module.exports = AuthService;

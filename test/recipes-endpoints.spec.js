@@ -2,7 +2,7 @@ const knex = require('knex');
 const app = require('../src/app');
 const { makeRecipesArray } = require('./recipes.fixtures');
 
-describe('Recipes Endpoints', function() {
+describe('Recipes Endpoints', function () {
   let db;
   before('make knex instance', () => {
     db = knex({
@@ -29,7 +29,7 @@ describe('Recipes Endpoints', function() {
       beforeEach('insert recipes', () => {
         return db
           .into('random_recipes')
-          .insert(testRecipes)
+          .insert(testRecipes);
       });
 
       it('responds with 200 and all of the recipes', () => {
@@ -51,12 +51,12 @@ describe('Recipes Endpoints', function() {
 
     context('Given there are recipes in the database', () => {
       const testRecipes = makeRecipesArray();
-      const recipeNames = testRecipes.name
+      const recipeNames = testRecipes.name;
 
       beforeEach('insert recipes', () => {
         return db
           .into('random_recipes')
-          .insert(testRecipes)
+          .insert(testRecipes);
       });
 
       it('responds with 200 and the names of all recipes', () => {
@@ -80,16 +80,16 @@ describe('Recipes Endpoints', function() {
 
     context('Given there are recipes in the database', () => {
       const testRecipes = makeRecipesArray();
-      const recipeNames = testRecipes.name
+      const recipeNames = testRecipes.name;
 
       beforeEach('insert recipes', () => {
         return db
           .into('random_recipes')
-          .insert(testRecipes)
+          .insert(testRecipes);
       });
 
       it('responds with 200 and 1 recipe', () => {
-        const recipe_id = 2
+        const recipe_id = 2;
         const expectedRecipe = testRecipes[recipe_id - 1];
         return supertest(app)
           .get(`/api/recipes/random/${recipe_id}`)

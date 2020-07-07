@@ -1,6 +1,6 @@
 function makeRecipesArray() {
     return [
-        {   
+        {
             id: 1,
             name: "cool name",
             source: "https://www.coolsite.com",
@@ -18,7 +18,7 @@ function makeRecipesArray() {
             protein: 50,
             instructions: "Be cool",
             ingredients: "coolness",
-            tags: "cool"
+            tags: "cool",
         },
         {   
             id: 2,
@@ -38,11 +38,11 @@ function makeRecipesArray() {
             protein: 500,
             instructions: "Be cooler",
             ingredients: "coolerness",
-            tags: "cooler"
+            tags: "cooler",
         },
     ];
 }
 
 module.exports = {
-    makeRecipesArray
+    makeRecipesArray,
 };

@@ -27,7 +27,7 @@ function makeUsersArray() {
       ...maliciousUser,
       firstname: 'Naughty naughty very naughty &lt;script&gt;alert(\"xss\");&lt;/script&gt;',
       lastname: `Bad image <img src="https://url.to.file.which/does-not.exist">. But not <strong>all</strong> bad.`,
-      email:'superbademail@doesnt.exist',
+      email: 'superbademail@doesnt.exist',
     };
     return {
       maliciousUser,
@@ -37,5 +37,5 @@ function makeUsersArray() {
 
   module.exports = {
     makeUsersArray,
-    makeMaliciousUser
+    makeMaliciousUser,
   };

@@ -1,14 +1,14 @@
-const express=require('express')
-const xss = require('xss')
-const RecipesService=require('./recipes-service')
+const express = require('express');
+const xss = require('xss');
+const RecipesService =require('./recipes-service');
 const UsersService = require ('../users/users-service');
 
-const recipesRouter= express.Router()
-const jsonParser=express.json()
+const recipesRouter = express.Router();
+const jsonParser = express.json();
 
-recipesRouter.use(function(req,res,next){ if(req.session.user) { next() } else { res.status(403).end() } })
+recipesRouter.use(function(req, res, next){ if (req.session.user) { next() } else { res.status(403).end() } });
 
-const serializeRecipe = recipe => ({
+const serializeRecipe = (recipe) => ({
     id: recipe.id,
     name: xss(recipe.name),
     source: xss(recipe.source),
@@ -28,29 +28,29 @@ const serializeRecipe = recipe => ({
     ingredients: xss(recipe.ingredients),
     tags: xss(recipe.tags),
     firstname: xss(recipe.firstname),
-    lastname: xss(recipe.lastname)
-})
+    lastname: xss(recipe.lastname),
+});
 
-const serializeNames = data => ({
-    name:xss(data.name)
-})
+const serializeNames = (data) => ({
+    name: xss(data.name),
+});
 
 recipesRouter
 .route('/')
-.get((req,res) => {
+.get((req, res) => {
     RecipesService.getAllRecipes(
         req.app.get('db'),
         req.session.user.id
     )
-.then(recipe => {
-    if (recipe === null){
+.then((recipe) => {
+    if (recipe === null) {
         res.status(400).json({
-            error: {message: "no recipes"}
+            error: { message: "no recipes" },
         });
     }
     res.json(recipe.map(serializeRecipe));
 });
-})
+});
 //make a recipe
 // .post(jsonParser, (req,res,next) => {
 //     const { name, source, preptime, waittime, cooktime, servings, comments,
@@ -87,50 +87,47 @@ recipesRouter
         req.params.recipe_id
     )
     .then((recipe) => {
-        if (recipe === null){
+        if (recipe === null) {
            return res.status(400).json({
-                error: {message: "no recipes"},
+                error: { message: "no recipes" },
             });
         }
         if (recipe.author_id) {
-            console.log("RECIPE.AUTHOR_ID")
-            console.log(recipe.author_id)
+            console.log("RECIPE.AUTHOR_ID");
+            console.log(recipe.author_id);
             UsersService.getById(
                 req.app.get('db'),
                 recipe.author_id
             )            
             .then((user) => {
-                if(user && user.firstname) {
+                if (user && user.firstname) {
                 res.json(serializeRecipe({
                         ...recipe, firstname: user.firstname, lastname: user.lastname
-                    }))
+                    }));
                 }
             })
         } else {
-            console.log('no author_id')
-            res.json(serializeRecipe(recipe))
+            console.log('no author_id');
+            res.json(serializeRecipe(recipe));
         }
-    })
-
-    
-})
+    });
+});
 
 recipesRouter
 .route('/names')
-.get((req,res) => {
+.get((req, res) => {
     RecipesService.getNames(
         req.app.get('db'),
         req.session.user.id
     )
-    .then(names => {
-        if (names === null){
+    .then((names) => {
+        if (names === null) {
             res.status(400).json({
-                error: {message: "no recipes"},
+                error: { message: "no recipes" },
             });
         }
-        res.json(names.map(serializeNames))
-    })
-})
+        res.json(names.map(serializeNames));
+    });
+});
 
-
-module.exports = recipesRouter
+module.exports = recipesRouter;

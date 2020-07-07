@@ -26,8 +26,8 @@ describe('Auth Endpoints', function() {
         it(`logs the user in, sets req.session.user to the user, and returns status 200`, () => {
             const newUser = {
                 email: "test@test.test",
-                p_word: "test"
-            }
+                p_word: "test",
+            };
             return supertest(app)
             .post('/api/login')
             .send(newUser)
@@ -51,7 +51,7 @@ describe('Auth Endpoints', function() {
             .post('/api/login')
             .send(newUser)
             .expect(400, {
-                error: { message: `Missing '${field}' in request body` }
+                error: { message: `Missing '${field}' in request body` },
             });
         });
         });
