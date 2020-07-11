@@ -2,6 +2,9 @@ const UsersService = {
     getAllUsers(knex) {
       return knex.select('*').from('random_recipe_users');
     },
+    lookForUser(knex, email) {
+      return knex.select('*').from('random_recipe_users').where({ email }).first();
+    },
     insertUser(knex, newUser) {
       return knex
         .insert(newUser)

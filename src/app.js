@@ -19,7 +19,6 @@ app.use(
   cors({
       origin:
       "https://random-recipe-roulette.jonretchless.vercel.app",
-      // 'http://localhost:3000',
       credentials: true,
   }),
 );

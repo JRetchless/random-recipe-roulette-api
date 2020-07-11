@@ -69,7 +69,7 @@ usersRouter
   });
 usersRouter
   .route('/')
-  .post(jsonParser, (req, res, next) => {
+  .post(jsonParser, async (req, res, next) => {
     let { firstname, lastname, email, p_word } = req.body;
     const newUser = { firstname, lastname, email, p_word };
     for (const [key, value] of Object.entries(newUser)) {
@@ -78,6 +78,12 @@ usersRouter
           error: { message: `Missing '${key}' in request body` },
         });
       }
+    }
+    let allUsers = await UsersService.lookForUser(req.app.get('db'), newUser.email);
+    if (allUsers) {
+      return res.status(400).json({
+        error: { message: 'email is already in use' }
+      });
     }
     UsersService.insertUser(
       req.app.get('db'),

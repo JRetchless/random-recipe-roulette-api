@@ -51,7 +51,8 @@ recipesRouter
     res.json(recipe.map(serializeRecipe));
 });
 });
-//make a recipe
+//Add Recipe feature, to implement post graduation
+
 // .post(jsonParser, (req,res,next) => {
 //     const { name, source, preptime, waittime, cooktime, servings, comments,
 //             calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
@@ -93,8 +94,6 @@ recipesRouter
             });
         }
         if (recipe.author_id) {
-            console.log("RECIPE.AUTHOR_ID");
-            console.log(recipe.author_id);
             UsersService.getById(
                 req.app.get('db'),
                 recipe.author_id
@@ -107,7 +106,6 @@ recipesRouter
                 }
             })
         } else {
-            console.log('no author_id');
             res.json(serializeRecipe(recipe));
         }
     });
