@@ -1,26 +1,100 @@
-# Express Boilerplate!
-
-This is a boilerplate project used for starting new projects!
-
-## Set up
-
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
-
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
-
-## Scripts
-
-Start the application `npm start`
-
-Start nodemon for the application `npm run dev`
-
-Run the tests `npm test`
-
-## Deploying
-
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+<h1>Random Recipe Roulette</h1>
+<p>Provides users with a new random recipe</p>
+<h2>Live Link:</h2>
+<p>https://random-recipe-roulette.jonretchless.vercel.app</p>
+<h2>Demo Credentials:</h2>
+<ul>
+    <li>Email: test@test.test</li>
+    <li>Password: test</li>
+    <li>Email: test2@test.test</li>
+    <li>Password: test</li>
+</ul>
+<h2>Screenshots:</h2>
+<ul>
+    <li>
+        Login
+        <br>
+        <img src="./src/Images/ScreenshotLogin.png">
+    </li>
+    <li>
+        Signup
+        <br>
+        <img src="./src/Images/ScreenshotSignup.png">
+    </li>
+    <li>
+        Homepage
+        <br>
+        <img src="./src/Images/ScreenshotHomepage.png">
+    </li>
+    <li>
+        Homepage Menu
+        <br>
+        <img src="./src/Images/ScreenshotHomepage2.png">
+    </li>
+    <li>
+        New Recipe
+        <br>
+        <img src="./src/Images/ScreenshotNewRecipe.png">
+    </li>
+</ul>
+<br>
+<br>
+<h2>Tech Used:</h2>
+<ul>
+    <li>React</li>
+    <li>JS</li>
+    <li>Node</li>
+    <li>Express</li>
+    <li>PostgreSQL</li>
+</ul>
+<br>
+<br>
+<h2>API Documentation:</h2>
+<ul>
+    "/api/users/"
+    <li>
+        POST: add new user
+    </li>
+</ul>
+<ul>    
+    "/api/users/:user_id"
+    <li>
+        GET: return user
+    </li>
+    <li>
+        DELETE: delete user
+    </li>
+    <li>
+        PATCH: update user information
+    </li>
+</ul>
+<ul>
+    "/api/login"
+    <li>
+        POST: add user to session auth
+    </li>
+</ul>
+<ul>
+    "api/logout"
+    <li>
+        GET: set session user to null
+    </li>
+</ul>
+<ul>
+    "/api/recipes"
+    <li>
+        GET: return all recipes
+    </li>
+</ul>
+<ul>
+    "/api/recipes/names"
+    <li>
+        GET: return all recipe names (effective check for recipes array length)
+    </li>
+</ul>
+<ul>
+    "/api/recipes/random/:recipe_id"
+    <li>
+        GET: return 1 random recipe
+    </li>
+</ul>
