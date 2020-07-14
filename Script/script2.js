@@ -24,4 +24,4 @@ for(let i =0; i<keys.length; i++){
     ${recipes[keys[i]].protein},${my_escape(recipes[keys[i]].instructions)},
     ${my_escape(joined)},${my_escape(recipes[keys[i]].tags.join('\r'))}),`
 }
-// fs.writeFileSync('seed.recipes.sql', sql, {encoding:"utf8"})
+fs.writeFileSync('seed.recipes.sql', sql, {encoding:"utf8"})

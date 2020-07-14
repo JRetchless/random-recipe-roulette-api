@@ -40,35 +40,6 @@ describe('Recipes Endpoints', function () {
     });
  });
 
- describe(`GET /api/recipes/names`, () => {
-    context(`Given no recipes`, () => {
-      it(`responds with 400 and "no recipes`, () => {
-        return supertest(app)
-          .get(`/api/recipes/names`)
-          .expect(404, { error: { message: "no recipes" } });
-      });
-    });
-
-    context('Given there are recipes in the database', () => {
-      const testRecipes = makeRecipesArray();
-      const recipeNames = testRecipes.name;
-
-      beforeEach('insert recipes', () => {
-        return db
-          .into('random_recipes')
-          .insert(testRecipes);
-      });
-
-      it('responds with 200 and the names of all recipes', () => {
-        const expectedNames = recipenames;
-        return supertest(app)
-          .get('/api/recipes/names')
-          .expect(200, expectedNames);
-      });
-    });
-
-  });
-
   describe(`GET /api/recipes/random/:recipe_id`, () => {
     context(`Given no recipes`, () => {
       it(`responds with 400 and "no recipes`, () => {

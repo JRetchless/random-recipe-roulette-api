@@ -4,7 +4,7 @@ const RecipesService =require('./recipes-service');
 const UsersService = require ('../users/users-service');
 
 const recipesRouter = express.Router();
-const jsonParser = express.json();
+// for add recipe const jsonParser = express.json();
 
 recipesRouter.use(function(req, res, next){ if (req.session.user) { next() } else { res.status(403).end() } });
 
@@ -48,10 +48,11 @@ recipesRouter
             error: { message: "no recipes" },
         });
     }
-    res.json(recipe.map(serializeRecipe));
+    res.status(200).json(recipe.map(serializeRecipe));
 });
 });
-//Add Recipe feature, to implement post graduation
+
+//Add Recipe feature (incomplete), continuing to build, to implement post graduation as a free time project!
 
 // .post(jsonParser, (req,res,next) => {
 //     const { name, source, preptime, waittime, cooktime, servings, comments,
