@@ -13,7 +13,7 @@ const recipesRouter = require('./recipes/recipes-router');
 const app = express();
 app.set('trust proxy', 1);
 
-app.use(session({ secret: 'keyboard cat', resave: false, saveUninitialized: true, cookie: { sameSite: 'None', secure: false } }));
+app.use(session({ secret: 'keyboard cat', resave: false, saveUninitialized: true, cookie: { sameSite: 'None', secure: process.env.NODE_ENV !== 'development' } }));
 
 app.use(
   cors({
