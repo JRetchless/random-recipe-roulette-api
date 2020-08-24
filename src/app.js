@@ -35,9 +35,7 @@ app.use('/api/login', authRouter);
 app.use('/api/logout', logoutRouter);
 app.use('/api/recipes', recipesRouter);
 
-app.get('/', (req, res) => {
-    res.send('Hello, world!')
-});
+app.use(express.static('/build'));
 
 app.use(function errorHandler(error, req, res, next) {
     let response;
