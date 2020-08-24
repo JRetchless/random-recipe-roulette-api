@@ -107,8 +107,12 @@ usersRouter
 .get((req, res) => {
   console.dir('refresh attempt, req.session.user below');
   console.dir(req.session.user);
-  res.json(serializeUserName(req.session.user))
-})
+  UsersService.nameReminder()
+  .then((name) => {
+    res.json(serializeUserName(name))
+
+  })
+});
 
 
 module.exports = usersRouter;

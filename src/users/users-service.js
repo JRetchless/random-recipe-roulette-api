@@ -31,6 +31,9 @@ const UsersService = {
         .where({ id })
         .update(newUserFields);
     },
+    nameReminder() {
+      return req.session.user;
+    },
 };
 
 module.exports = UsersService;
