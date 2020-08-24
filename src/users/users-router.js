@@ -121,7 +121,7 @@ usersRouter
     .catch(next);
 })
 .get((req, res, next) => {
-  return res.json(serializeUserName(res.user));
+  return res.json(serializeUser(res.user));
 });
 
 
