@@ -105,27 +105,27 @@ usersRouter
 usersRouter
 .route('/refresh')
 .get((req, res, next) => {
-  console.log(req.session.user);
-  res.status(200).end();
-});
-//   UsersService.getById(
-//     req.app.get('db'),
-//     req.session.user.id
-//   )
-//     .then((user) => {
-//       if (!user) {
-//         return res.status(404).json({
-//           error: { message: `User doesn't exist` },
-//         });
-//       }
-//       res.user = user;
-//       next();
-//     })
-//     .catch(next);
-// })
-// .get((req, res, next) => {
-//   return res.json(serializeUser(res.user));
+//   console.log(req.session.user);
+//   res.status(200).end();
 // });
+  UsersService.getById(
+    req.app.get('db'),
+    String(req.session.user.id)
+  )
+    .then((user) => {
+      if (!user) {
+        return res.status(404).json({
+          error: { message: `User doesn't exist` },
+        });
+      }
+      res.user = user;
+      next();
+    })
+    .catch(next);
+})
+.get((req, res, next) => {
+  return res.json(serializeUser(res.user));
+});
 
 
 module.exports = usersRouter;
