@@ -1,6 +1,6 @@
 const knex = require('knex');
 const app = require('../src/app');
-const { makeUsersArray, makeMaliciousUser } = require('./users.fixtures');
+const { makeUsersArray } = require('./users.fixtures');
 
 describe('Auth Endpoints', function() {
   let db;
@@ -16,6 +16,7 @@ describe('Auth Endpoints', function() {
   afterEach('cleanup', () => db.raw('TRUNCATE random_recipe_users, random_recipes RESTART IDENTITY CASCADE'));
 
   describe(`POST /api/login`, () => {
+        this.timeout(15000);
         const testUsers = makeUsersArray();
         beforeEach('insert users', () => {
         return db
@@ -54,17 +55,6 @@ describe('Auth Endpoints', function() {
                 error: { message: `Missing '${field}' in request body` },
             });
         });
-        });
-
-        it('removes XSS attack content from response', () => {
-        const { maliciousUser, expectedUser } = makeMaliciousUser();
-        return supertest(app)
-            .post(`/api/login`)
-            .send(maliciousUser)
-            .expect(201)
-            .expect((res) => {
-            expect(res.body.firstname).to.eql(expectedUser.firstname);
-            });
         });
     });
 });

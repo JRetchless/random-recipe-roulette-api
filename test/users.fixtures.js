@@ -1,14 +1,12 @@
 function makeUsersArray() {
     return [
       {
-        id: 1,
         firstname: 'Sam',
         lastname: 'Gamgee',
         email: 'sam.gamgee@shire.com',
         p_word: 'secret',
       },
       {
-        id: 2,
         firstname: 'Peregrin',
         lastname: 'Took',
         email: 'peregrin.took@shire.com',

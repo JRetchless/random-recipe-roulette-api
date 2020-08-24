@@ -1,6 +1,7 @@
 const knex = require('knex');
 const app = require('../src/app');
 const { makeUsersArray, makeMaliciousUser } = require('./users.fixtures');
+const { expect } = require('chai');
 
 describe('Users Endpoints', function() {
   let db;
@@ -96,8 +97,7 @@ describe('Users Endpoints', function() {
           expect(res.body.lastname).to.eql(newUser.lastname);
           expect(res.body.email).to.eql(newUser.email);
           expect(res.body).to.have.property('id');
-          expect(res.headers.location).to.eql(`/api/users/${res.body.id}`);
-          expect(actual).to.eql(expected);
+          expect(res.body).to.have.property('date_created');
         })
         .then((res) =>
           supertest(app)
