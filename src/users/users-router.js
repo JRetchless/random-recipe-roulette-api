@@ -122,7 +122,7 @@ usersRouter
 })
 .get((req, res, next) => {
   return res.json(serializeUserName(res.user));
-})
+});
 
 
 module.exports = usersRouter;

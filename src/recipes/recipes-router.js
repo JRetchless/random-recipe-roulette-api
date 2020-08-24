@@ -129,4 +129,22 @@ recipesRouter
     });
 });
 
+recipesRouter
+.route('/test')
+.get((req, res) => {
+    RecipesService.getNames(
+        req.app.get('db'),
+        req.session.user.id
+    )
+    .then((names) => {
+        if (names === null) {
+            res.status(400).json({
+                error: { message: "no recipes" },
+            });
+        }
+        res.json(names.map(serializeNames));
+    });
+});
+
+
 module.exports = recipesRouter;
