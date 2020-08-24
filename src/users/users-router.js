@@ -107,7 +107,7 @@ usersRouter
 .get((req, res, next) => {
   UsersService.getById(
     req.app.get('db'),
-    req.session.id
+    req.session.user.id
   )
     .then((user) => {
       if (!user) {
