@@ -15,7 +15,9 @@ const serializeUser = (user) => ({
 });
 
 const serializeUserName = (user) => ({
-  firstname: xss(user.firstname)
+  id: user.id,
+  firstname: xss(user.firstname),
+  lastname: xss(user.lastname)
 })
 
 usersRouter
