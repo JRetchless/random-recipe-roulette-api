@@ -104,14 +104,17 @@ usersRouter
 
 usersRouter
 .route('/refresh')
-.get((req, res) => {
-  console.dir('refresh attempt, req.session.user below');
-  console.dir(req.session.user);
-  UsersService.nameReminder()
-  .then((name) => {
-    res.json(serializeUserName(name))
-
+.get((req, res, next) => {
+  console.dir('refresh attempt, req.session.user below')
+  console.dir(req.session.user)
+  UsersService.getById(
+    req.app.get('db'),
+    req.session.user.id
+  )
+  .then((data) => {
+    res.json(serializeUserName(data))
   })
+  .catch(next)
 });
 
 
