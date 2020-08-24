@@ -103,7 +103,7 @@ usersRouter
   });
 
 usersRouter
-.route('/refresh')
+.route('/ref')
 .get((req, res, next) => {
 //   console.log(req.session.user);
 //   res.status(200).end();
