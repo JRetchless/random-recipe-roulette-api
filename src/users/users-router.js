@@ -14,6 +14,10 @@ const serializeUser = (user) => ({
   date_created: user.date_created,
 });
 
+const serializeUserName = (user) => ({
+  firstname: xss(user.firstname)
+})
+
 usersRouter
   .route('/:user_id')
   .get((req, res, next) => {
@@ -95,5 +99,12 @@ usersRouter
       })
       .catch(next);
   });
+
+usersRouter
+.route('/refresh')
+.get((req, res, next) => {
+  return res.json(serializeUserName(req.session.user))
+})
+
 
 module.exports = usersRouter;
