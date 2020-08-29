@@ -4,7 +4,7 @@ const RecipesService =require('./recipes-service');
 const UsersService = require ('../users/users-service');
 
 const recipesRouter = express.Router();
-// for add recipe const jsonParser = express.json();
+const jsonParser = express.json();
 
 recipesRouter.use(function(req, res, next){ if (req.session.user) { next() } else { res.status(403).end() } });
 
@@ -49,37 +49,37 @@ recipesRouter
         });
     }
     res.status(200).json(recipe.map(serializeRecipe));
-});
+})
+.post(jsonParser, (req,res,next) => {
+    const { name, source, preptime, waittime, cooktime, servings, comments,
+            calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
+            ingredients, tags } = req.body;
+    const newRecipe = { name, source, preptime, waittime, cooktime, servings, comments,
+        calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
+        ingredients, tags, author_id:req.session.user.id };
+
+    for (const [key, value] of Object.entries(newRecipe)) {
+        if(value == null) {
+            return res.status(400).json({
+               error: { message: `Missing '${key}' in request body`}, 
+            });
+        }
+    }
+    RecipesService.insertRecipe(
+        req.app.get('db'),
+        newRecipe
+    )
+    .then((recipe) => {
+        res
+            .status(201)
+            .json(serializeRecipe(recipe))
+    })
+    .catch(next)
+})
 });
 
 //Add Recipe feature (incomplete), continuing to build, to implement post graduation as a free time project!
 
-// .post(jsonParser, (req,res,next) => {
-//     const { name, source, preptime, waittime, cooktime, servings, comments,
-//             calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
-//             ingredients, tags } = req.body;
-//     const newRecipe = { name, source, preptime, waittime, cooktime, servings, comments,
-//         calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
-//         ingredients, tags, author_id:req.session.user.id };
-
-//     for (const [key, value] of Object.entries(newRecipe)) {
-//         if(value == null) {
-//             return res.status(400).json({
-//                error: { message: `Missing '${key}' in request body`}, 
-//             });
-//         }
-//     }
-//     RecipesService.insertRecipe(
-//         req.app.get('db'),
-//         newRecipe
-//     )
-//     .then((recipe) => {
-//         res
-//             .status(201)
-//             .json(serializeRecipe(recipe))
-//     })
-//     .catch(next)
-// })
 
 recipesRouter
 .route('/random/:recipe_id')
