@@ -51,10 +51,10 @@ recipesRouter
     res.status(200).json(recipe.map(serializeRecipe));
 })
 .post(jsonParser, (req,res,next) => {
-    const { name, source, preptime, waittime, cooktime, servings, comments,
+    const { name, preptime, waittime, cooktime, servings, comments,
             calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
             ingredients, tags } = req.body;
-    const newRecipe = { name, source, preptime, waittime, cooktime, servings, comments,
+    const newRecipe = { name, preptime, waittime, cooktime, servings, comments,
         calories, fat, satfat, carbs, fiber, sugar, protein, instructions,
         ingredients, tags, author_id:req.session.user.id };
 
